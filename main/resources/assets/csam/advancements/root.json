@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Survival Additions"
+        },
+        "description": {
+            "text": "Craft scrap wood planks"
+        },
+        "icon": {
+            "item": "csam:scrap_wood_planks"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "get_scrap_planks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "csam:scrap_wood_planks"
+                    }
+                ]
+            }
+        }
+    }
+}

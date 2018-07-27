@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BX",
+        "S "
+    ],
+    "key":{
+        "B":{
+            "item": "csam:bone_knife"
+        },
+        "S":{
+            "item": "minecraft:stick"
+        },
+        "X":{
+            "item": "minecraft:string"
+        }
+    },
+    "result":{
+        "item": "csam:bone_pick",
+        "count": 1
+    }
+}

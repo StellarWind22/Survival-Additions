@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Arts And Crafts"
+        },
+        "description": {
+            "text": "Shape a pickaxe out of clay"
+        },
+        "icon": {
+            "item": "csam:wet_clay_pickaxe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_wet_clay_pick": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "csam:wet_clay_pickaxe"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "csam:a_minor_upgrade"
+}

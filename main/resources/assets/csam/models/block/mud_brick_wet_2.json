@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "csam:blocks/mud_brick_wet_2"
+   }
+}

@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Half Baked"
+        },
+        "description": {
+            "text": "Bake a wet clay pickaxe"
+        },
+        "icon": {
+            "item": "csam:clay_pickaxe"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_clay_pickaxe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "csam:clay_pickaxe"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "csam:arts_and_crafts"
+}

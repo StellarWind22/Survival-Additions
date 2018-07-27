@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "A Minor Upgrade"
+        },
+        "description": {
+            "text": "Craft a flint pick"
+        },
+        "icon": {
+            "item": "csam:flint_pick"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "get_flint_pick": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "csam:flint_pick"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "csam:bone_to_pick"
+}

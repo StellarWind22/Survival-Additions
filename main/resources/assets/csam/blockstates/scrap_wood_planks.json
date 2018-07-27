@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "normal": [
+            { "model": "csam:scrap_wood_planks" },
+            { "model": "csam:scrap_wood_planks2" },
+            { "model": "csam:scrap_wood_planks3" }
+        ]
+    }
+}

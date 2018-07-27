@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BX",
+        "S "
+    ],
+    "key":{
+        "B":{
+            "item": "csam:flint_knife"
+        },
+        "S":{
+            "item": "minecraft:stick"
+        },
+        "X":{
+            "item": "minecraft:string"
+        }
+    },
+    "result":{
+        "item": "csam:flint_pick",
+        "count": 1
+    }
+}

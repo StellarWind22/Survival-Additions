@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients":[{
+      "item": "minecraft:bone"
+    },{
+      "item": "minecraft:flint"
+    }],
+    "result":{
+        "item": "csam:sharpened_bone",
+        "count": 1
+    }
+}

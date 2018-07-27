@@ -1,0 +1,8 @@
+{
+    "parent": "block/outer_stairs",
+    "textures": {
+        "bottom": "csam:blocks/scrap_wood_planks3",
+        "top": "csam:blocks/scrap_wood_planks3",
+        "side": "csam:blocks/scrap_wood_planks3"
+    }
+}

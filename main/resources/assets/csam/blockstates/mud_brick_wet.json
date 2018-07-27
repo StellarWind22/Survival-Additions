@@ -1,0 +1,9 @@
+{
+    "variants": 
+    {
+        "age=0": { "model": "csam:mud_brick_wet_0" },
+        "age=1": { "model": "csam:mud_brick_wet_1" },
+        "age=2": { "model": "csam:mud_brick_wet_2" },
+        "age=3": { "model": "csam:mud_brick_wet_3" }
+    }
+}

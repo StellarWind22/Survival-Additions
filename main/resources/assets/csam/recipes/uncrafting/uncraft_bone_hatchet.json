@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "uncrafting_bone_tool",
+    "ingredients": [
+        {
+            "item": "csam:bone_hatchet"
+        }
+    ],
+    "result": {
+        "item": "minecraft:dye",
+        "data": 15,
+        "count": 4
+    }
+}

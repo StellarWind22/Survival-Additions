@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients":[{
+      "item": "minecraft:cactus"
+    },{
+      "item": "minecraft:cactus"
+    },{
+      "item": "minecraft:bowl"
+    }],
+    "result":{
+        "item": "csam:cactus_stew",
+        "count": 1
+    }
+}

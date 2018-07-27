@@ -1,0 +1,14 @@
+{
+    "variants": {
+        "half=top,variant=default": [
+            {"model":"csam:scrap_wood_slab_top"},
+            {"model":"csam:scrap_wood_slab_top2"},
+            {"model":"csam:scrap_wood_slab_top3"}
+        ],
+        "half=bottom,variant=default": [
+            {"model":"csam:scrap_wood_slab_bottom"},
+            {"model":"csam:scrap_wood_slab_bottom2"},
+            {"model":"csam:scrap_wood_slab_bottom3"}
+        ]
+    }
+}

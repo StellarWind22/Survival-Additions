@@ -1,0 +1,43 @@
+//Items
+item.sharpened_bone.name=Sharpened Bone
+item.sharpened_flint.name=Sharpened Flint
+item.chain.name=Chain
+
+//Food
+item.cactus_stew.name=Cactus Stew
+item.carrot_soup.name=Carrot Soup
+item.potato_soup.name=Potato Soup
+
+//Tools
+item.bone_knife.name=Bone Knife
+item.bone_pick.name=Bone Pick
+item.bone_hatchet.name=Bone Hatchet
+item.bone_hoe.name=Bone Hoe
+item.flint_knife.name=Flint Knife
+item.flint_pick.name=Flint Pick
+item.flint_hatchet.name=Flint Hatchet
+item.flint_hoe.name=Flint Hoe
+item.flint_spade.name=Flint Spade
+item.wet_clay_sword.name=Wet Clay Sword
+item.wet_clay_pickaxe.name=Wet Clay Pickaxe
+item.wet_clay_axe.name=Wet Clay Axe
+item.wet_clay_hoe.name=Wet Clay Hoe
+item.wet_clay_shovel.name=Wet Clay Shovel
+item.clay_sword.name=Terracotta Sword
+item.clay_pickaxe.name=Terracotta Pickaxe
+item.clay_axe.name=Terracotta Axe
+item.clay_hoe.name=Terracotta Hoe
+item.clay_shovel.name=Terracotta Spade
+item.crude_shield.name=Crude Shield
+
+//Blocks
+tile.scrap_wood_planks.name=Scrap Wood Planks
+tile.scrap_wood_stairs.name=Scrap Wood Stairs
+tile.scrap_wood_slab.name=Scrap Wood Slab
+tile.mud_brick.name=Mud Bricks
+tile.mud_brick_stairs.name=Mud Brick Stairs
+tile.mud_brick_slab.name=Mud Brick Slab
+tile.mud_brick_wet.name=Wet Mud Bricks
+
+//Tabs
+itemGroup.survival_tab=Survival Additions Mod

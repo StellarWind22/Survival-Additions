@@ -1,0 +1,14 @@
+{
+    "variants": {
+        "half=top,variant=default": [
+            {"model":"csam:scrap_wood_planks"},
+            {"model":"csam:scrap_wood_planks2"},
+            {"model":"csam:scrap_wood_planks3"}
+        ],
+        "half=bottom,variant=default": [
+            {"model":"csam:scrap_wood_planks"},
+            {"model":"csam:scrap_wood_planks2"},
+            {"model":"csam:scrap_wood_planks3"}
+        ]
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=top,variant=default": { "model": "csam:mud_brick_slab_top" },
+        "half=bottom,variant=default": { "model": "csam:mud_brick_slab_bottom" }
+    }
+}
