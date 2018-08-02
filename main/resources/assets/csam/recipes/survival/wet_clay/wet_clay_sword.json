@@ -2,19 +2,15 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "C",
-        "C",
-        "/"
+        "C"
     ],
     "key":{
-        "/":{
-            "item": "minecraft:stick"
-        },
         "C":{
             "item": "minecraft:clay_ball"
         }
     },
     "result":{
-        "item": "csam:wet_clay_sword",
+        "item": "csam:clay_sword_head",
         "count": 1
     }
 }

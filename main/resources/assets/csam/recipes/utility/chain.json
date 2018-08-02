@@ -1,8 +1,9 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "I",
-        "I"
+        "  I",
+        " I ",
+        "I  "
     ],
     "key":{
         "I":{
@@ -11,6 +12,6 @@
     },
     "result":{
         "item": "csam:chain",
-        "count": 5
+        "count": 7
     }
 }

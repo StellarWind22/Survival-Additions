@@ -14,7 +14,7 @@ public class ToolAxe extends ItemAxe implements IHasModel{
 		super(material, damage, speed);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(SurvivalAdditions.SURVIVAL_TAB);
+		setCreativeTab(SurvivalAdditions.TOOLS_TAB);
 			
 		ModItems.ITEMS.add(this);
 		}

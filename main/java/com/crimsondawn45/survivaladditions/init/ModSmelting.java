@@ -15,11 +15,11 @@ public class ModSmelting {
 		GameRegistry.addSmelting(Blocks.HOPPER, new ItemStack(Items.IRON_INGOT, 1), 0.3F);
 		
 		//Wet Clay
-		GameRegistry.addSmelting(ModItems.WET_CLAY_AXE, new ItemStack(ModItems.CLAY_AXE, 1), 0.3F);
-		GameRegistry.addSmelting(ModItems.WET_CLAY_SWORD, new ItemStack(ModItems.CLAY_SWORD, 1), 0.3F);
-		GameRegistry.addSmelting(ModItems.WET_CLAY_PICKAXE, new ItemStack(ModItems.CLAY_PICKAXE, 1), 0.3F);
-		GameRegistry.addSmelting(ModItems.WET_CLAY_SHOVEL, new ItemStack(ModItems.CLAY_SHOVEL, 1), 0.3F);
-		GameRegistry.addSmelting(ModItems.WET_CLAY_HOE, new ItemStack(ModItems.CLAY_HOE, 1), 0.3F);
+		GameRegistry.addSmelting(ModItems.CLAY_SWORD_HEAD, new ItemStack(ModItems.TERRACOTTA_SWORD_HEAD, 1), 0.3F);
+		GameRegistry.addSmelting(ModItems.CLAY_PICKAXE_HEAD, new ItemStack(ModItems.TERRACOTTA_PICKAXE_HEAD, 1), 0.3F);
+		GameRegistry.addSmelting(ModItems.CLAY_AXE_HEAD, new ItemStack(ModItems.TERRACOTTA_AXE_HEAD, 1), 0.3F);
+		GameRegistry.addSmelting(ModItems.CLAY_HOE_HEAD, new ItemStack(ModItems.TERRACOTTA_HOE_HEAD, 1), 0.3F);
+		GameRegistry.addSmelting(ModItems.CLAY_SHOVEL_HEAD, new ItemStack(ModItems.TERRACOTTA_SHOVEL_HEAD, 1), 0.3F);
 		
 		//Mud Brick
 		GameRegistry.addSmelting(ModBlocks.MUD_BRICK_WET, new ItemStack(ModBlocks.MUD_BRICK, 1), 0.1F);

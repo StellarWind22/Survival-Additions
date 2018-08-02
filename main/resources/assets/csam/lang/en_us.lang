@@ -2,11 +2,22 @@
 item.sharpened_bone.name=Sharpened Bone
 item.sharpened_flint.name=Sharpened Flint
 item.chain.name=Chain
+item.clay_sword_head.name=Clay Sword Head
+item.clay_pickaxe_head.name=Clay Pickaxe Head
+item.clay_axe_head.name=Clay Axe Head
+item.clay_hoe_head.name=Clay Hoe Head
+item.clay_shovel_head.name=Clay Shovel Head
+item.terracotta_sword_head.name=Terracotta Sword Head
+item.terracotta_pickaxe_head.name=Terracotta Pickaxe Head
+item.terracotta_axe_head.name=Terracotta Axe Head
+item.terracotta_hoe_head.name=Terracotta Hoe Head
+item.terracotta_shovel_head.name=Terracotta Shovel Head
 
 //Food
 item.cactus_stew.name=Cactus Stew
 item.carrot_soup.name=Carrot Soup
 item.potato_soup.name=Potato Soup
+item.nether_wart_stew.name=Nether Wart Stew
 
 //Tools
 item.bone_knife.name=Bone Knife
@@ -18,16 +29,26 @@ item.flint_pick.name=Flint Pick
 item.flint_hatchet.name=Flint Hatchet
 item.flint_hoe.name=Flint Hoe
 item.flint_spade.name=Flint Spade
-item.wet_clay_sword.name=Wet Clay Sword
-item.wet_clay_pickaxe.name=Wet Clay Pickaxe
-item.wet_clay_axe.name=Wet Clay Axe
-item.wet_clay_hoe.name=Wet Clay Hoe
-item.wet_clay_shovel.name=Wet Clay Shovel
-item.clay_sword.name=Terracotta Sword
-item.clay_pickaxe.name=Terracotta Pickaxe
-item.clay_axe.name=Terracotta Axe
-item.clay_hoe.name=Terracotta Hoe
-item.clay_shovel.name=Terracotta Spade
+item.terracotta_sword.name=Terracotta Sword
+item.terracotta_pickaxe.name=Terracotta Pickaxe
+item.terracotta_axe.name=Terracotta Axe
+item.terracotta_hoe.name=Terracotta Hoe
+item.terracotta_shovel.name=Terracotta Spade
+item.netherrack_sword.name=Netherrack Sword
+item.netherrack_pickaxe.name=Netherrack Pickaxe
+item.netherrack_axe.name=Netherrack Axe
+item.netherrack_hoe.name=Netherrack Hoe
+item.netherrack_shovel.name=Netherrack Shovel
+item.quartz_sword.name=Quartz Sword
+item.quartz_pickaxe.name=Quartz Pickaxe
+item.quartz_axe.name=Quartz Axe
+item.quartz_hoe.name=Quartz Hoe
+item.quartz_shovel.name=Quartz Shovel
+item.sandstone_sword.name=Sandstone Sword
+item.sandstone_pickaxe.name=Sandstone Pickaxe
+item.sandstone_axe.name=Sandstone Axe
+item.sandstone_hoe.name=Sandstone Hoe
+item.sandstone_shovel.name=Sandstone Shovel
 item.crude_shield.name=Crude Shield
 
 //Blocks
@@ -39,5 +60,11 @@ tile.mud_brick_stairs.name=Mud Brick Stairs
 tile.mud_brick_slab.name=Mud Brick Slab
 tile.mud_brick_wet.name=Wet Mud Bricks
 
+//Containers
+tile.basket.name=Basket
+container.basket=Basket
+
 //Tabs
-itemGroup.survival_tab=Survival Additions Mod
+itemGroup.csam_tools=Survival Additions Tools
+itemGroup.csam_blocks=Survival Additions Blocks
+itemGroup.csam_misc=Survival Additions Misc

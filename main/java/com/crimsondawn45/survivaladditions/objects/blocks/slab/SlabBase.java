@@ -32,7 +32,7 @@ public class SlabBase extends BlockSlab implements IHasModel{
         setUnlocalizedName(name);
 		setRegistryName(name);
 		setSoundType(sound);
-		setCreativeTab(SurvivalAdditions.SURVIVAL_TAB);
+		setCreativeTab(SurvivalAdditions.BLOCKS_TAB);
 		setHardness(hard);
 		setResistance(resist);
 		setHarvestLevel(tool, harvestLvl);

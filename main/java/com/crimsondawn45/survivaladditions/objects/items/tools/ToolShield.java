@@ -28,7 +28,7 @@ public class ToolShield extends Item implements IHasModel{
 		//Registry Stuff
         setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(SurvivalAdditions.SURVIVAL_TAB);
+		setCreativeTab(SurvivalAdditions.TOOLS_TAB);
 		
 		//Special Stuff
 		setMaxStackSize(1);

@@ -6,7 +6,6 @@ import java.util.List;
 import com.crimsondawn45.survivaladditions.objects.blocks.BlockBase;
 import com.crimsondawn45.survivaladditions.objects.blocks.StairsBase;
 import com.crimsondawn45.survivaladditions.objects.blocks.WetMudBrick;
-import com.crimsondawn45.survivaladditions.objects.blocks.guiblocks.Basket;
 import com.crimsondawn45.survivaladditions.objects.blocks.slab.DoubleSlabBase;
 import com.crimsondawn45.survivaladditions.objects.blocks.slab.HalfSlabBase;
 import com.crimsondawn45.survivaladditions.objects.blocks.slab.SlabBase;
@@ -37,7 +36,4 @@ public class ModBlocks {
 	
 	public static final BlockSlab MUD_BRICK_HALF_SLAB = new HalfSlabBase("mud_brick_slab", Material.ROCK, SoundType.STONE, "pickaxe", 0, 1.25F, 6.5F);
 	public static final Block MUD_BRICK_DOUBLE_SLAB = new DoubleSlabBase("mud_brick_double_slab", Material.ROCK, SoundType.STONE, "pickaxe", 0, 1.25F, 6.5F);
-	
-	//Containers
-	public static final Block BASKET = new Basket("basket", Material.GRASS, SoundType.PLANT, "axe", 0, 1.0F, 0.5F);
 }

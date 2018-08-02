@@ -21,7 +21,7 @@ public class SoupBase extends ItemFood implements IHasModel{
 		super(amount,isWolfFood);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(SurvivalAdditions.SURVIVAL_TAB);
+		setCreativeTab(SurvivalAdditions.MISC_TAB);
 		setMaxStackSize(1);
 			
 		ModItems.ITEMS.add(this);

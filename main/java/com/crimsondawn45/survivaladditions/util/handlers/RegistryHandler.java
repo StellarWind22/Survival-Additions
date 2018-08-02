@@ -1,5 +1,6 @@
 package com.crimsondawn45.survivaladditions.util.handlers;
 
+import com.crimsondawn45.survivaladditions.SurvivalAdditions;
 import com.crimsondawn45.survivaladditions.init.ModBlocks;
 import com.crimsondawn45.survivaladditions.init.ModItems;
 import com.crimsondawn45.survivaladditions.util.IHasModel;
@@ -13,6 +14,7 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.network.NetworkRegistry;
 
 @EventBusSubscriber
 public class RegistryHandler {

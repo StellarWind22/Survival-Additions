@@ -4,10 +4,10 @@
             "text": "Arts And Crafts"
         },
         "description": {
-            "text": "Shape a pickaxe out of clay"
+            "text": "Shape a pickaxe head out of clay"
         },
         "icon": {
-            "item": "csam:wet_clay_pickaxe"
+            "item": "csam:clay_pickaxe_head"
         },
         "frame": "task",
         "show_toast": true,
@@ -20,7 +20,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "csam:wet_clay_pickaxe"
+                        "item": "csam:clay_pickaxe_head"
                     }
                 ]
             }

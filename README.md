@@ -5,6 +5,9 @@ by CrimsonDawn45
 - Bone Tools
 - Flint Tools
 - Terracotta Tools
+- Netherrack Tools
+- Nether Quartz Tools
+- Sandstone Tools
 - Crude Shield
 - Chain
 - Sharpened Bone
