@@ -66,7 +66,7 @@ public class FlintPick extends ItemPickaxe implements IHasModel{
 	            ItemStack offhand = player.getHeldItemOffhand();
 	            
 	            //Take one Iron Nugget
-	            offhand.setCount(offhand.getCount() - 1);
+	            offhand.shrink(1);
 	            itemstack.damageItem(5, player);
 	            return EnumActionResult.SUCCESS;
 	        }

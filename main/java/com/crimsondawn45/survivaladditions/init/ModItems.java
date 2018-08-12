@@ -15,7 +15,6 @@ import com.crimsondawn45.survivaladditions.objects.items.tools.ToolSword;
 import com.crimsondawn45.survivaladditions.objects.items.tools.flint.FlintHatchet;
 import com.crimsondawn45.survivaladditions.objects.items.tools.flint.FlintKnife;
 import com.crimsondawn45.survivaladditions.objects.items.tools.flint.FlintPick;
-
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;

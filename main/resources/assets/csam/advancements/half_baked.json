@@ -7,7 +7,7 @@
             "text": "Bake a wet clay pickaxe"
         },
         "icon": {
-            "item": "csam:clay_pickaxe"
+            "item": "csam:terracotta_pickaxe"
         },
         "frame": "task",
         "show_toast": true,
@@ -20,7 +20,7 @@
             "conditions": {
                 "items": [
                     {
-                        "item": "csam:clay_pickaxe"
+                        "item": "csam:terracotta_pickaxe"
                     }
                 ]
             }
