@@ -21,5 +21,4 @@ public class ItemBase extends Item implements IHasModel {
 	public void registerModels() {
 		SurvivalAdditions.proxy.registerItemRenderer(this, 0, "inventory");
 	}
-
 }

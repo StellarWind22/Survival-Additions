@@ -30,45 +30,42 @@ public class FlintKnife extends ItemSword implements IHasModel{
 	ModItems.ITEMS.add(this);
 	}
 	
+	//Right Click Light Fire Event
+	public EnumActionResult onItemUse(EntityPlayer player, World worldIn, BlockPos pos, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ)
+	{
+		//Grab Vars
+		pos = pos.offset(facing);
+		ItemStack itemstack = player.getHeldItem(hand);
+		ItemStack iron_nugget = new ItemStack(Items.IRON_NUGGET);
+
+		//Check for iron nugget and looking at block
+		if (!player.canPlayerEdit(pos, facing, itemstack) || !player.getHeldItemOffhand().isItemEqual(iron_nugget)) {
+			return EnumActionResult.FAIL;
+		} else {
+			//Check if space for fire is available
+		    if (worldIn.isAirBlock(pos)) {
+		    	//Place fire block
+		    	worldIn.playSound(player, pos, SoundEvents.ITEM_FLINTANDSTEEL_USE, SoundCategory.BLOCKS, 1.0F, itemRand.nextFloat() * 0.4F + 0.8F);
+		    	worldIn.playSound(player, pos, SoundEvents.ITEM_SHIELD_BREAK, SoundCategory.BLOCKS, 0.25F, itemRand.nextFloat() * 0.4F + 0.8F);
+		    	worldIn.setBlockState(pos, Blocks.FIRE.getDefaultState(), 11);
+		    }
+
+		    if (player instanceof EntityPlayerMP) {
+		    	CriteriaTriggers.PLACED_BLOCK.trigger((EntityPlayerMP)player, pos, itemstack);
+		    }
+		    ItemStack offhand = player.getHeldItemOffhand();
+		            
+		    //Take one Iron Nugget
+		    offhand.shrink(1);
+		    //Damage Tool
+		    itemstack.damageItem(5, player);
+		    return EnumActionResult.SUCCESS;
+		}
+	}
+	
 	//Register Item Model
 	@Override
 	public void registerModels() {
 		SurvivalAdditions.proxy.registerItemRenderer(this, 0, "inventory");
 	}
-	//Right Click Light Fire Event
-	public EnumActionResult onItemUse(EntityPlayer player, World worldIn, BlockPos pos, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ)
-	{
-				//Grab Vars
-		        pos = pos.offset(facing);
-		        ItemStack itemstack = player.getHeldItem(hand);
-		        ItemStack iron_nugget = new ItemStack(Items.IRON_NUGGET);
-
-		        //Check for iron nugget and looking at block
-		        if (!player.canPlayerEdit(pos, facing, itemstack) || !player.getHeldItemOffhand().isItemEqual(iron_nugget))
-		        {
-		            return EnumActionResult.FAIL;
-		        }
-		        else
-		        {
-		        	//Check if space for fire is available
-		            if (worldIn.isAirBlock(pos))
-		            {
-		            	//Place fire block
-		                worldIn.playSound(player, pos, SoundEvents.ITEM_FLINTANDSTEEL_USE, SoundCategory.BLOCKS, 1.0F, itemRand.nextFloat() * 0.4F + 0.8F);
-		                worldIn.playSound(player, pos, SoundEvents.ITEM_SHIELD_BREAK, SoundCategory.BLOCKS, 0.25F, itemRand.nextFloat() * 0.4F + 0.8F);
-		                worldIn.setBlockState(pos, Blocks.FIRE.getDefaultState(), 11);
-		            }
-
-		            if (player instanceof EntityPlayerMP)
-		            {
-		                CriteriaTriggers.PLACED_BLOCK.trigger((EntityPlayerMP)player, pos, itemstack);
-		            }
-		            ItemStack offhand = player.getHeldItemOffhand();
-		            
-		            //Take one Iron Nugget
-		            offhand.shrink(1);
-		            itemstack.damageItem(5, player);
-		            return EnumActionResult.SUCCESS;
-		        }
-		    }
 }

@@ -1,5 +1,6 @@
 package com.crimsondawn45.survivaladditions;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,9 +12,11 @@ import com.crimsondawn45.survivaladditions.tabs.MiscTab;
 import com.crimsondawn45.survivaladditions.tabs.ToolsTab;
 import com.crimsondawn45.survivaladditions.util.Reference;
 import com.crimsondawn45.survivaladditions.util.compat.OreDictionaryCompat;
+import com.crimsondawn45.survivaladditions.util.handlers.ConfigHandler;
 import com.crimsondawn45.survivaladditions.util.handlers.RegistryHandler;
 
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -27,6 +30,8 @@ import scala.actors.threadpool.Arrays;
 //Get Vars From Ref Class
 @Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION, useMetadata = false)
 public class SurvivalAdditions {
+	
+	public static File config;
 	
 	@Instance
 	public static SurvivalAdditions instance;
@@ -51,6 +56,7 @@ public class SurvivalAdditions {
 		event.getModMetadata().logoFile = Reference.LOGO;
 		event.getModMetadata().credits = Reference.CREDITS;
 		
+		ConfigHandler.registerConfig(event);
 	}
 	
 	//Init Event
