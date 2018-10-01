@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "C",
+        "S"
+    ],
+    "key":{
+        "C":{
+            "item": "csam:terracotta_sword_head"
+        },
+        "S":{
+            "item": "minecraft:stick"
+        }
+    },
+    "result":{
+        "item": "csam:terracotta_sword",
+        "count": 1
+    }
+}

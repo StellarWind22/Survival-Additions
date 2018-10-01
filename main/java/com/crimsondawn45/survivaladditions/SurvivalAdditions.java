@@ -56,7 +56,7 @@ public class SurvivalAdditions {
 		event.getModMetadata().logoFile = Reference.LOGO;
 		event.getModMetadata().credits = Reference.CREDITS;
 		
-		ConfigHandler.registerConfig(event);
+		//ConfigHandler.registerConfig(event);
 	}
 	
 	//Init Event

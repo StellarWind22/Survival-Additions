@@ -17,8 +17,6 @@ import com.crimsondawn45.survivaladditions.objects.items.tools.flint.FlintKnife;
 import com.crimsondawn45.survivaladditions.objects.items.tools.flint.FlintPick;
 import com.crimsondawn45.survivaladditions.util.Reference;
 import com.crimsondawn45.survivaladditions.util.handlers.ConfigHandler;
-import com.crimsondawn45.survivaladditions.util.handlers.OptionalTools;
-
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.init.SoundEvents;
@@ -113,5 +111,4 @@ public class ModItems {
 	public static final Item NETHER_WART_SOUP = new NauseaSoupBase("nether_wart_stew", 5, false);
 	public static final Item CARROT_SOUP = new SoupBase("carrot_soup", 8, false);
 	public static final Item POTATO_SOUP = new SoupBase("potato_soup", 6, false);
-
 }
