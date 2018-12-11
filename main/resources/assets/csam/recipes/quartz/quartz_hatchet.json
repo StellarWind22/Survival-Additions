@@ -6,17 +6,17 @@
     ],
     "key":{
         "B":{
-            "item": "csam:flint_pick"
+            "item": "csam:quartz_pick"
         },
         "S":{
             "item": "minecraft:stick"
         },
         "<":{
-            "item": "csam:sharpened_flint"
+            "item": "minecraft:quartz"
         }
     },
     "result":{
-        "item": "csam:flint_hatchet",
+        "item": "csam:quartz_hatchet",
         "count": 1
     }
 }

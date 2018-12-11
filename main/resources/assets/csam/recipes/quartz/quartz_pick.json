@@ -6,7 +6,7 @@
     ],
     "key":{
         "B":{
-            "item": "csam:flint_knife"
+            "item": "csam:quartz_knife"
         },
         "S":{
             "item": "minecraft:stick"
@@ -16,7 +16,7 @@
         }
     },
     "result":{
-        "item": "csam:flint_pick",
+        "item": "csam:quartz_pick",
         "count": 1
     }
 }

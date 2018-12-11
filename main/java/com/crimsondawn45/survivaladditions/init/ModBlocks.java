@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.crimsondawn45.survivaladditions.objects.blocks.BlockBase;
-import com.crimsondawn45.survivaladditions.objects.blocks.InfectedPlanksBase;
 import com.crimsondawn45.survivaladditions.objects.blocks.StairsBase;
 import com.crimsondawn45.survivaladditions.objects.blocks.WetMudBrick;
 import com.crimsondawn45.survivaladditions.objects.blocks.slab.DoubleSlabBase;
@@ -38,12 +37,4 @@ public class ModBlocks {
 	public static final BlockSlab MUD_BRICK_HALF_SLAB = new HalfSlabBase("mud_brick_slab", Material.ROCK, SoundType.STONE, "pickaxe", 0, 1.25F, 6.5F);
 	public static final Block MUD_BRICK_DOUBLE_SLAB = new DoubleSlabBase("mud_brick_double_slab", Material.ROCK, SoundType.STONE, "pickaxe", 0, 1.25F, 6.5F);
 	
-	//Infected Wood
-	public static final Block INFECTED_PLANKS_OAK = new InfectedPlanksBase("infected_planks_oak", Material.WOOD, SoundType.WOOD, "axe", 0, 2.0F, 5.0F);
-	public static final Block INFECTED_PLANKS_SPRUCE = new InfectedPlanksBase("infected_planks_spruce", Material.WOOD, SoundType.WOOD, "axe", 0, 2.0F, 5.0F);
-	public static final Block INFECTED_PLANKS_BIRCH = new InfectedPlanksBase("infected_planks_birch", Material.WOOD, SoundType.WOOD, "axe", 0, 2.0F, 5.0F);
-	public static final Block INFECTED_PLANKS_JUNGLE = new InfectedPlanksBase("infected_planks_jungle", Material.WOOD, SoundType.WOOD, "axe", 0, 2.0F, 5.0F);
-	public static final Block INFECTED_PLANKS_ACACIA = new InfectedPlanksBase("infected_planks_acacia", Material.WOOD, SoundType.WOOD, "axe", 0, 2.0F, 5.0F);
-	public static final Block INFECTED_PLANKS_DARK_OAK = new InfectedPlanksBase("infected_planks_dark_oak", Material.WOOD, SoundType.WOOD, "axe", 0, 2.0F, 5.0F);
-	public static final Block INFECTED_PLANKS_SCRAP = new InfectedPlanksBase("infected_planks_scrap", Material.WOOD, SoundType.WOOD, "axe", 0, 2.0F, 5.0F);
 }

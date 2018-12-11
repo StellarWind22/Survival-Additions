@@ -16,7 +16,6 @@ import com.crimsondawn45.survivaladditions.objects.items.tools.flint.FlintHatche
 import com.crimsondawn45.survivaladditions.objects.items.tools.flint.FlintKnife;
 import com.crimsondawn45.survivaladditions.objects.items.tools.flint.FlintPick;
 import com.crimsondawn45.survivaladditions.util.Reference;
-import com.crimsondawn45.survivaladditions.util.handlers.ConfigHandler;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.init.SoundEvents;
@@ -55,17 +54,17 @@ public class ModItems {
 	//Items
 	public static final Item CHAIN = new ItemBase("chain");
 		//Clay Tool Heads
-	public static final Item CLAY_SWORD_HEAD = new ItemBase("clay_sword_head");
-	public static final Item CLAY_PICKAXE_HEAD = new ItemBase("clay_pickaxe_head");
+	public static final Item CLAY_KNIFE_HEAD = new ItemBase("clay_knife_head");
+	public static final Item CLAY_PICK_HEAD = new ItemBase("clay_pick_head");
 	public static final Item CLAY_AXE_HEAD = new ItemBase("clay_axe_head");
 	public static final Item CLAY_HOE_HEAD = new ItemBase("clay_hoe_head");
-	public static final Item CLAY_SHOVEL_HEAD = new ItemBase("clay_shovel_head");
+	public static final Item CLAY_SPADE_HEAD = new ItemBase("clay_spade_head");
 		//Terracotta Tool Heads
-	public static final Item TERRACOTTA_SWORD_HEAD = new ItemBase("terracotta_sword_head");
-	public static final Item TERRACOTTA_PICKAXE_HEAD = new ItemBase("terracotta_pickaxe_head");
+	public static final Item TERRACOTTA_KNIFE_HEAD = new ItemBase("terracotta_knife_head");
+	public static final Item TERRACOTTA_PICK_HEAD = new ItemBase("terracotta_pick_head");
 	public static final Item TERRACOTTA_AXE_HEAD = new ItemBase("terracotta_axe_head");
 	public static final Item TERRACOTTA_HOE_HEAD = new ItemBase("terracotta_hoe_head");
-	public static final Item TERRACOTTA_SHOVEL_HEAD = new ItemBase("terracotta_shovel_head");
+	public static final Item TERRACOTTA_SPADE_HEAD = new ItemBase("terracotta_spade_head");
 	
 	//Tools
 	public static final ItemSword BONE_KNIFE = new ToolSword("bone_knife" ,MATERIAL_BONE);
@@ -89,7 +88,6 @@ public class ModItems {
 	public static final ItemPickaxe QUARTZ_PICK = new ToolPickaxe("quartz_pick", MATERIAL_QUARTZ);
 	public static final ItemAxe QUARTZ_HATCHET = new ToolAxe("quartz_hatchet", MATERIAL_QUARTZ, 7.0F, -3.0F);
 	public static final ItemHoe QUARTZ_HOE = new ToolHoe("quartz_hoe", MATERIAL_QUARTZ);
-	public static final ItemSpade QUARTZ_SPADE = new ToolSpade("quartz_spade", MATERIAL_QUARTZ);
 
 	public static final ItemSword SANDSTONE_SWORD = new ToolSword("sandstone_sword", MATERIAL_SANDSTONE);
 	public static final ItemPickaxe SANDSTONE_PICKAXE = new ToolPickaxe("sandstone_pickaxe", MATERIAL_SANDSTONE);
@@ -97,11 +95,11 @@ public class ModItems {
 	public static final ItemHoe SANDSTONE_HOE = new ToolHoe("sandstone_hoe", MATERIAL_SANDSTONE);
 	public static final ItemSpade SANDSTONE_SHOVEL = new ToolSpade("sandstone_shovel", MATERIAL_SANDSTONE);
 
-	public static final ItemSword TERRACOTTA_SWORD = new ToolSword("terracotta_sword" ,MATERIAL_CLAY);
-	public static final ItemPickaxe TERRACOTTA_PICKAXE = new ToolPickaxe("terracotta_pickaxe" ,MATERIAL_CLAY);
+	public static final ItemSword TERRACOTTA_KNIFE = new ToolSword("terracotta_knife" ,MATERIAL_CLAY);
+	public static final ItemPickaxe TERRACOTTA_PICK = new ToolPickaxe("terracotta_pick" ,MATERIAL_CLAY);
 	public static final ItemAxe TERRACOTTA_AXE = new ToolAxe("terracotta_axe" ,MATERIAL_CLAY, 8.5F, -3.2F);
 	public static final ItemHoe TERRACOTTA_HOE = new ToolHoe("terracotta_hoe" ,MATERIAL_CLAY);
-	public static final ItemSpade TERRACOTTA_SHOVEL = new ToolSpade("terracotta_shovel" ,MATERIAL_CLAY);
+	public static final ItemSpade TERRACOTTA_SPADE = new ToolSpade("terracotta_spade" ,MATERIAL_CLAY);
 	
 	//Shield
 	public static final Item CRUDE_SHIELD = new ToolShield("crude_shield", 165);

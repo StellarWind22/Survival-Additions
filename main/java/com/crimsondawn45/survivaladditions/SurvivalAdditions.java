@@ -12,7 +12,6 @@ import com.crimsondawn45.survivaladditions.tabs.MiscTab;
 import com.crimsondawn45.survivaladditions.tabs.ToolsTab;
 import com.crimsondawn45.survivaladditions.util.Reference;
 import com.crimsondawn45.survivaladditions.util.compat.OreDictionaryCompat;
-import com.crimsondawn45.survivaladditions.util.handlers.ConfigHandler;
 import com.crimsondawn45.survivaladditions.util.handlers.RegistryHandler;
 
 import net.minecraft.creativetab.CreativeTabs;
@@ -55,8 +54,6 @@ public class SurvivalAdditions {
 		event.getModMetadata().url = Reference.URL;
 		event.getModMetadata().logoFile = Reference.LOGO;
 		event.getModMetadata().credits = Reference.CREDITS;
-		
-		//ConfigHandler.registerConfig(event);
 	}
 	
 	//Init Event

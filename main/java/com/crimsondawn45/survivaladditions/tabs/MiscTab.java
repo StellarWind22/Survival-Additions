@@ -15,6 +15,6 @@ public class MiscTab extends CreativeTabs {
 	}
 	
 	public ItemStack getTabIconItem() {
-		return new ItemStack(ModItems.TERRACOTTA_PICKAXE_HEAD); 
+		return new ItemStack(ModItems.TERRACOTTA_PICK_HEAD); 
 	}
 }

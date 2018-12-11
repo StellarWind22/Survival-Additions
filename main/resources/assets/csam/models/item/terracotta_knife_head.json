@@ -1,6 +1,6 @@
 {
    "parent": "item/generated",
    "textures": {
-       "layer0": "csam:items/terracotta_pickaxe_head"
+       "layer0": "csam:items/terracotta_knife_head"
    }
 }
