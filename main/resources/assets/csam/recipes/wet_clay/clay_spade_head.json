@@ -1,7 +1,6 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "C",
         "C"
     ],
     "key":{
@@ -10,7 +9,7 @@
         }
     },
     "result":{
-        "item": "csam:clay_sword_head",
+        "item": "csam:clay_spade_head",
         "count": 1
     }
 }

@@ -7,14 +7,14 @@
     ],
     "key":{
         "C":{
-            "item": "csam:terracotta_pickaxe_head"
+            "item": "csam:terracotta_spade_head"
         },
         "S":{
             "item": "minecraft:stick"
         }
     },
     "result":{
-        "item": "csam:terracotta_pickaxe",
+        "item": "csam:terracotta_spade",
         "count": 1
     }
 }
