@@ -1,6 +1,6 @@
 package com.crimsondawn45.survivaladditions.util.handlers;
 
-import com.crimsondawn45.survivaladditions.SurvivalAdditions;
+import com.crimsondawn45.survivaladditions.Main;
 import com.crimsondawn45.survivaladditions.init.ModBlocks;
 import com.crimsondawn45.survivaladditions.init.ModItems;
 import com.crimsondawn45.survivaladditions.util.IHasModel;

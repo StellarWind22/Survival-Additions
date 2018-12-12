@@ -26,5 +26,5 @@
             }
         }
     },
-    "parent": "csam:bone_to_pick"
+    "parent": "csam:mod/bone_to_pick"
 }

@@ -2,16 +2,16 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "csam:bone/bone_knife"
+      "csam:scrapwood/scrap_wood_stairs"
     ]
   },
   "criteria": {
-    "has_string": {
+    "has_stick": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:bone"
+            "item": "minecraft:stick"
           }
         ]
       }
@@ -19,13 +19,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "csam:bone/bone_knife"
+        "recipe": "csam:scrapwood/scrap_wood_stairs"
       }
     }
   },
   "requirements": [
     [
-      "has_bone",
+      "has_stick",
       "has_the_recipe"
     ]
   ]

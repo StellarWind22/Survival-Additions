@@ -1,6 +1,6 @@
 package com.crimsondawn45.survivaladditions.objects.items.tools;
 
-import com.crimsondawn45.survivaladditions.SurvivalAdditions;
+import com.crimsondawn45.survivaladditions.Main;
 import com.crimsondawn45.survivaladditions.init.ModItems;
 import com.crimsondawn45.survivaladditions.util.IHasModel;
 
@@ -12,13 +12,13 @@ public class ToolSpade extends ItemSpade implements IHasModel{
 		super(material);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(SurvivalAdditions.TOOLS_TAB);
+		setCreativeTab(Main.TOOLS_TAB);
 			
 		ModItems.ITEMS.add(this);
 		}
 		
 		@Override
 		public void registerModels() {
-			SurvivalAdditions.proxy.registerItemRenderer(this, 0, "inventory");
+			Main.proxy.registerItemRenderer(this, 0, "inventory");
 		}
 }

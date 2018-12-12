@@ -28,12 +28,12 @@ import scala.actors.threadpool.Arrays;
 
 //Get Vars From Ref Class
 @Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION, useMetadata = false)
-public class SurvivalAdditions {
+public class Main {
 	
 	public static File config;
 	
 	@Instance
-	public static SurvivalAdditions instance;
+	public static Main instance;
 	
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.COMMON_PROXY_CLASS)
 	public static CommonProxy proxy;

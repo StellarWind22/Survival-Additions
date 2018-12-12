@@ -2,16 +2,16 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "csam:flint/sharpened_flint"
+      "csam:food/potato_soup"
     ]
   },
   "criteria": {
-    "has_string": {
+    "has_potato": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:flint"
+            "item": "minecraft:potato"
           }
         ]
       }
@@ -19,13 +19,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "csam:flint/sharpened_flint"
+        "recipe": "csam:food/potato_soup"
       }
     }
   },
   "requirements": [
     [
-      "has_flint",
+      "has_potato",
       "has_the_recipe"
     ]
   ]

@@ -26,5 +26,5 @@
             }
         }
     },
-    "parent": "csam:a_minor_upgrade"
+    "parent": "csam:mod/a_minor_upgrade"
 }

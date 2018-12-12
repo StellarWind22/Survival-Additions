@@ -26,5 +26,5 @@
             }
         }
     },
-    "parent": "csam:arts_and_crafts"
+    "parent": "csam:mod/arts_and_crafts"
 }

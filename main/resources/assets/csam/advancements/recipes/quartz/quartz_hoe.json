@@ -2,16 +2,16 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "csam:bone/sharpened_bone"
+      "csam:quartz/quartz_hoe"
     ]
   },
   "criteria": {
-    "has_string": {
+    "has_quartz": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:bone"
+            "item": "minecraft:quartz"
           }
         ]
       }
@@ -19,13 +19,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "csam:bone/sharpened_bone"
+        "recipe": "csam:quartz/quartz_hoe"
       }
     }
   },
   "requirements": [
     [
-      "has_bone",
+      "has_quartz",
       "has_the_recipe"
     ]
   ]

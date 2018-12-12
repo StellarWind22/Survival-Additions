@@ -1,6 +1,6 @@
 package com.crimsondawn45.survivaladditions.objects.items.tools.flint;
 
-import com.crimsondawn45.survivaladditions.SurvivalAdditions;
+import com.crimsondawn45.survivaladditions.Main;
 import com.crimsondawn45.survivaladditions.init.ModItems;
 import com.crimsondawn45.survivaladditions.util.IHasModel;
 
@@ -25,7 +25,7 @@ public class FlintHatchet extends ItemAxe implements IHasModel{
 		super(material, damage, speed);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(SurvivalAdditions.TOOLS_TAB);
+		setCreativeTab(Main.TOOLS_TAB);
 			
 		ModItems.ITEMS.add(this);
 		}
@@ -66,6 +66,6 @@ public class FlintHatchet extends ItemAxe implements IHasModel{
 	//Register Item Model
 	@Override
 	public void registerModels() {
-		SurvivalAdditions.proxy.registerItemRenderer(this, 0, "inventory");
+		Main.proxy.registerItemRenderer(this, 0, "inventory");
 	}
 }

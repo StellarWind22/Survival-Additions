@@ -2,16 +2,16 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "csam:scrapwood/scrap_wood_planks"
+      "csam:bone/bone_hoe"
     ]
   },
   "criteria": {
-    "has_string": {
+    "has_bone": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:stick"
+            "item": "minecraft:bone"
           }
         ]
       }
@@ -19,13 +19,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "csam:scrapwood/scrap_wood_planks"
+        "recipe": "csam:bone/bone_hoe"
       }
     }
   },
   "requirements": [
     [
-      "has_stick",
+      "has_bone",
       "has_the_recipe"
     ]
   ]

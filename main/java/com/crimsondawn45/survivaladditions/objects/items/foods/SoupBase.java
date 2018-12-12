@@ -1,6 +1,6 @@
 package com.crimsondawn45.survivaladditions.objects.items.foods;
 
-import com.crimsondawn45.survivaladditions.SurvivalAdditions;
+import com.crimsondawn45.survivaladditions.Main;
 import com.crimsondawn45.survivaladditions.init.ModItems;
 import com.crimsondawn45.survivaladditions.util.DiceRoll;
 import com.crimsondawn45.survivaladditions.util.IHasModel;
@@ -21,7 +21,7 @@ public class SoupBase extends ItemFood implements IHasModel{
 		super(amount,isWolfFood);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(SurvivalAdditions.MISC_TAB);
+		setCreativeTab(Main.MISC_TAB);
 		setMaxStackSize(1);
 			
 		ModItems.ITEMS.add(this);
@@ -35,6 +35,6 @@ public class SoupBase extends ItemFood implements IHasModel{
 	
 	@Override
 	public void registerModels() {
-		SurvivalAdditions.proxy.registerItemRenderer(this, 0, "inventory");
+		Main.proxy.registerItemRenderer(this, 0, "inventory");
 	}
 }

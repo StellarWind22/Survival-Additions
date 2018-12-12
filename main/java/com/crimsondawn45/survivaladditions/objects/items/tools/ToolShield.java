@@ -2,7 +2,7 @@ package com.crimsondawn45.survivaladditions.objects.items.tools;
 
 import javax.annotation.Nullable;
 
-import com.crimsondawn45.survivaladditions.SurvivalAdditions;
+import com.crimsondawn45.survivaladditions.Main;
 import com.crimsondawn45.survivaladditions.init.ModBlocks;
 import com.crimsondawn45.survivaladditions.init.ModItems;
 import com.crimsondawn45.survivaladditions.util.IHasModel;
@@ -28,7 +28,7 @@ public class ToolShield extends Item implements IHasModel{
 		//Registry Stuff
         setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(SurvivalAdditions.TOOLS_TAB);
+		setCreativeTab(Main.TOOLS_TAB);
 		
 		//Special Stuff
 		setMaxStackSize(1);
@@ -85,6 +85,6 @@ public class ToolShield extends Item implements IHasModel{
 	//Register Model
 	@Override
 	public void registerModels() {
-		SurvivalAdditions.proxy.registerItemRenderer(this, 0, "inventory");
+		Main.proxy.registerItemRenderer(this, 0, "inventory");
 	}
 }

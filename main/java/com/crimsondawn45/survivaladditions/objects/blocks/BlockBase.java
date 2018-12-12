@@ -1,6 +1,6 @@
 package com.crimsondawn45.survivaladditions.objects.blocks;
 
-import com.crimsondawn45.survivaladditions.SurvivalAdditions;
+import com.crimsondawn45.survivaladditions.Main;
 import com.crimsondawn45.survivaladditions.init.ModBlocks;
 import com.crimsondawn45.survivaladditions.init.ModItems;
 import com.crimsondawn45.survivaladditions.util.IHasModel;
@@ -19,7 +19,7 @@ public class BlockBase extends Block implements IHasModel {
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setSoundType(sound);
-		setCreativeTab(SurvivalAdditions.BLOCKS_TAB);
+		setCreativeTab(Main.BLOCKS_TAB);
 		setHardness(hard);
 		setResistance(resist);
 		setHarvestLevel(tool, harvestLvl);
@@ -30,6 +30,6 @@ public class BlockBase extends Block implements IHasModel {
 
 	@Override
 	public void registerModels() {
-		SurvivalAdditions.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
+		Main.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
 	}
 }

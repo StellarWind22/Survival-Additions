@@ -36,5 +36,4 @@ public class ModBlocks {
 	
 	public static final BlockSlab MUD_BRICK_HALF_SLAB = new HalfSlabBase("mud_brick_slab", Material.ROCK, SoundType.STONE, "pickaxe", 0, 1.25F, 6.5F);
 	public static final Block MUD_BRICK_DOUBLE_SLAB = new DoubleSlabBase("mud_brick_double_slab", Material.ROCK, SoundType.STONE, "pickaxe", 0, 1.25F, 6.5F);
-	
 }

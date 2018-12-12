@@ -26,5 +26,5 @@
             }
         }
     },
-    "parent": "csam:root"
+    "parent": "csam:mod/root"
 }
