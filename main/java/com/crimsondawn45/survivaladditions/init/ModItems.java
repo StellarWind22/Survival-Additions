@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.crimsondawn45.survivaladditions.objects.items.ItemBase;
+import com.crimsondawn45.survivaladditions.objects.items.foods.ChorusStew;
 import com.crimsondawn45.survivaladditions.objects.items.foods.NauseaSoupBase;
 import com.crimsondawn45.survivaladditions.objects.items.foods.SoupBase;
 import com.crimsondawn45.survivaladditions.objects.items.tools.ToolAxe;
@@ -105,8 +106,9 @@ public class ModItems {
 	public static final Item CRUDE_SHIELD = new ToolShield("crude_shield", 165);
 	
 	//Food
-	public static final Item CACTUS_SOUP = new NauseaSoupBase("cactus_stew", 5, false);
-	public static final Item NETHER_WART_SOUP = new NauseaSoupBase("nether_wart_stew", 5, false);
+	public static final Item CACTUS_STEW = new NauseaSoupBase("cactus_stew", 5, false);
+	public static final Item NETHER_WART_STEW = new NauseaSoupBase("nether_wart_stew", 5, false);
+	public static final Item CHORUS_STEW = new ChorusStew("chorus_stew", 8, false);
 	public static final Item CARROT_SOUP = new SoupBase("carrot_soup", 8, false);
 	public static final Item POTATO_SOUP = new SoupBase("potato_soup", 6, false);
 }
