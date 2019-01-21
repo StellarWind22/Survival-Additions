@@ -17,10 +17,11 @@ by CrimsonDawn45
 - Potato Soup
 - Scrap Wood Planks, Slabs and Stairs
 - Mud Bricks, Slabs, and Stairs
+- Snow Bricks, Slabs, and Stairs
 
 ### Changes:
 - Iron Bars and Hoppers can be melted down for iron nuggets
 - Chainmail Armor is now craftable
 - Horse Armor is now craftable
 - Leather Armor can now be uncrafted for leather
-- more blocks that I thought should be flammable are
+- More blocks that I thought should be flammable are

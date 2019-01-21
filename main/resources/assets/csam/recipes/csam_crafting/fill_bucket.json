@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group":"csam_fill_bucket",
+    "pattern": [
+        "W",
+        "B"
+    ],
+    "key":{
+        "W":[
+            {"type": "forge:ore_dict", "ore": "csam_water_source"},
+            {"item": "minecraft:sponge", "data":1}
+        ],
+        "B":{
+            "item": "minecraft:bucket"
+        }
+    },
+    "result":{
+        "item": "minecraft:water_bucket",
+        "count": 1
+    }
+}

@@ -5,7 +5,7 @@ public class Reference {
 	//Variables For Mod
 	public static final String MOD_ID = "csam";
 	public static final String NAME = "Survival Additions";
-	public static final String VERSION = "1.2.1";
+	public static final String VERSION = "1.3.0";
 	public static final String DESCRIPTION = "adds new tools and food items for extreme survival situations and makes a few previously uncraftable items craftable";
 	public static final String URL = "https://minecraft.curseforge.com/projects/survival-additions";
 	public static final String LOGO = "logo.png";
