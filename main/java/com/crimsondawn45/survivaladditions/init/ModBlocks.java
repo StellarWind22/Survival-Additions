@@ -4,12 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.crimsondawn45.survivaladditions.objects.blocks.BlockBase;
+import com.crimsondawn45.survivaladditions.objects.blocks.SnowBrick;
 import com.crimsondawn45.survivaladditions.objects.blocks.StairsBase;
 import com.crimsondawn45.survivaladditions.objects.blocks.WetMudBrick;
 import com.crimsondawn45.survivaladditions.objects.blocks.slab.DoubleSlabBase;
 import com.crimsondawn45.survivaladditions.objects.blocks.slab.HalfSlabBase;
 import com.crimsondawn45.survivaladditions.objects.blocks.slab.SlabBase;
-
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockSlab;
 import net.minecraft.block.BlockStairs;
@@ -36,4 +36,11 @@ public class ModBlocks {
 	
 	public static final BlockSlab MUD_BRICK_HALF_SLAB = new HalfSlabBase("mud_brick_slab", Material.ROCK, SoundType.STONE, "pickaxe", 0, 1.25F, 6.5F);
 	public static final Block MUD_BRICK_DOUBLE_SLAB = new DoubleSlabBase("mud_brick_double_slab", Material.ROCK, SoundType.STONE, "pickaxe", 0, 1.25F, 6.5F);
+	
+	//Snow Brick
+	public static final Block SNOW_BRICK = new SnowBrick("snow_brick", Material.GROUND, SoundType.SNOW, "shovel", 0, 0.4F, 0.7F);
+	public static final BlockStairs SNOW_BRICK_STAIRS = new StairsBase("snow_brick_stairs", Material.GROUND, SoundType.SNOW, "shovel", 0, 0.4F, 0.7F, ModBlocks.SNOW_BRICK.getDefaultState());
+	
+	public static final BlockSlab SNOW_BRICK_HALF_SLAB = new HalfSlabBase("snow_brick_slab", Material.GROUND, SoundType.SNOW, "shovel", 0, 0.4F, 0.7F);
+	public static final Block SNOW_BRICK_DOUBLE_SLAB = new DoubleSlabBase("snow_brick_double_slab", Material.GROUND, SoundType.SNOW, "shovel", 0, 0.4F, 0.7F);
 }

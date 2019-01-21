@@ -28,14 +28,17 @@ public class RegistryHandler {
 		//Create Object
 		ItemBlock mudSlab = new ItemSlab(ModBlocks.MUD_BRICK_HALF_SLAB, ModBlocks.MUD_BRICK_HALF_SLAB, (BlockSlab) ModBlocks.MUD_BRICK_DOUBLE_SLAB);
 		ItemBlock scrapSlab = new ItemSlab(ModBlocks.SCRAP_WOOD_HALF_SLAB, ModBlocks.SCRAP_WOOD_HALF_SLAB, (BlockSlab) ModBlocks.SCRAP_WOOD_DOUBLE_SLAB);
+		ItemBlock snowSlab = new ItemSlab(ModBlocks.SNOW_BRICK_HALF_SLAB, ModBlocks.SNOW_BRICK_HALF_SLAB, (BlockSlab) ModBlocks.SNOW_BRICK_DOUBLE_SLAB);
 		
 		//RegistryName
 		mudSlab.setRegistryName(ModBlocks.MUD_BRICK_HALF_SLAB.getRegistryName());
 		scrapSlab.setRegistryName(ModBlocks.SCRAP_WOOD_HALF_SLAB.getRegistryName());
+		snowSlab.setRegistryName(ModBlocks.SNOW_BRICK_HALF_SLAB.getRegistryName());
 		
 		//Register
 		event.getRegistry().register(mudSlab);
 		event.getRegistry().register(scrapSlab);
+		event.getRegistry().register(snowSlab);
 	}
 	
 	//Block Register Event

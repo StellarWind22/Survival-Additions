@@ -31,7 +31,7 @@ public class NauseaSoupBase extends ItemFood implements IHasModel{
     {
         super.onItemUseFinish(stack, worldIn, entityLiving);
         if(DiceRoll.probCheck(1,4)) {
-        	entityLiving.addPotionEffect(new PotionEffect(MobEffects.NAUSEA, DiceRoll.genRandEffectDurSecs(5, 10), 1));
+        	entityLiving.addPotionEffect(new PotionEffect(MobEffects.NAUSEA, DiceRoll.genRandEffectDurSecs(1, 5), 1));
         }
         return new ItemStack(Items.BOWL);
     }

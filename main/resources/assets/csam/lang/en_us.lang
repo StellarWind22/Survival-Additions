@@ -68,3 +68,6 @@ item.quartz_hatchet.name=Quartz Hatchet
 item.quartz_hoe.name=Quartz Hoe
 item.quartz_spade.name=Quartz Spade
 item.chorus_stew.name=Chorus Stew
+tile.snow_brick.name=Snow Bricks
+tile.snow_brick_slab.name=Snow Brick Slab
+tile.snow_brick_stairs.name=Snow Brick Stairs
