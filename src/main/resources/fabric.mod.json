@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "cdsam",
+  "version": "${version}",
+
+  "name": "Survival Additions",
+  "description": "adds new tools and food items for extreme survival situations and makes a few previously uncraftable items craftable.",
+  "authors": [
+    "CrimsonDawn45"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/survival-additions",
+    "sources": "https://github.com/CrimsonDawn45/Survival-Additions"
+  },
+
+  "license": "MIT",
+  "icon": "assets/cdsam/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.crimsondawn45.cdsam.SurvivalAdditions"
+    ]
+  },
+  "mixins":
+  [
+    
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16-alpha.20.13.b"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "cdsam:item/quartz_pickaxe"
+    }
+}

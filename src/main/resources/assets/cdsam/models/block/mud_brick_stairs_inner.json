@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "cdsam:block/mud_bricks",
+        "top": "cdsam:block/mud_bricks",
+        "side": "cdsam:block/mud_bricks"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "cdsam:block/snow_bricks",
+        "top": "cdsam:block/snow_bricks",
+        "side": "cdsam:block/snow_bricks"
+    }
+}

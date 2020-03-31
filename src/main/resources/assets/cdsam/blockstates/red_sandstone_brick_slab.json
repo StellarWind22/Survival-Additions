@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "cdsam:block/red_sandstone_brick_slab" },
+        "type=top": { "model": "cdsam:block/red_sandstone_brick_slab_top" },
+        "type=double": { "model": "cdsam:block/red_sandstone_bricks" }
+    }
+}

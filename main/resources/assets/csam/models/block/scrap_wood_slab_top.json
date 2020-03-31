@@ -1,8 +1,0 @@
-{
-    "parent": "block/upper_slab",
-    "textures": {
-        "bottom": "csam:blocks/scrap_wood_planks",
-        "top": "csam:blocks/scrap_wood_planks",
-        "side": "csam:blocks/scrap_wood_planks"
-    }
-}
