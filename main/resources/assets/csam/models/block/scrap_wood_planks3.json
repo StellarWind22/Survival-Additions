@@ -1,6 +1,0 @@
-{
-   "parent": "block/cube_all",
-   "textures": {
-       "all": "csam:blocks/scrap_wood_planks3"
-   }
-}

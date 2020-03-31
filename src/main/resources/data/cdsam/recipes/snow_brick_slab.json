@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS"
+  ],
+  "key": {
+    "S":{
+      "item":"cdsam:snow_bricks"
+    }
+  },
+  "result": {
+    "item": "cdsam:snow_brick_slab",
+    "count": 6
+  }
+}

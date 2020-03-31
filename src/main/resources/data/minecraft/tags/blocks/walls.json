@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "cdsam:mud_brick_wall",
+    "cdsam:sandstone_brick_wall",
+    "cdsam:red_sandstone_brick_wall",
+    "cdsam:snow_brick_wall",
+    "cdsam:packed_ice_brick_wall"
+  ]
+}

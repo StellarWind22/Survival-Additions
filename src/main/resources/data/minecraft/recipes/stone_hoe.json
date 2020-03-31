@@ -1,0 +1,20 @@
+{
+  "replace": true,
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SS",
+    "/ ",
+    "/ "
+  ],
+  "key": {
+    "/": {
+      "tag": "forge:rods/wooden"
+    },
+    "S": {
+      "tag": "forge:raw_stone"
+    }
+  },
+  "result": {
+    "item": "minecraft:stone_hoe"
+  }
+}

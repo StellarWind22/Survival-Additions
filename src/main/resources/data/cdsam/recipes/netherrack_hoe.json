@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SS",
+    " /",
+    " /"
+  ],
+  "key": {
+    "/": {
+      "tag": "forge:rods/wooden"
+    },
+    "S": {
+      "tag": "forge:netherrack"
+    }
+  },
+  "result": {
+    "item": "cdsam:netherrack_hoe"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B",
+    "/"
+  ],
+  "key": {
+    "/": {
+      "tag": "forge:rods/wooden"
+    },
+    "B": {
+      "item": "cdsam:carved_quartz"
+    }
+  },
+  "result": {
+    "item": "cdsam:quartz_sword"
+  }
+}

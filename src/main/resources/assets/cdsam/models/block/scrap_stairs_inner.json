@@ -1,0 +1,8 @@
+{
+    "parent": "block/inner_stairs",
+    "textures": {
+        "bottom": "cdsam:block/scrap_planks",
+        "top": "cdsam:block/scrap_planks",
+        "side": "cdsam:block/scrap_planks"
+    }
+}

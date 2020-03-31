@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SB",
+    " /"
+  ],
+  "key": {
+    "/": {
+      "tag": "forge:rods/wooden"
+    },
+    "B": {
+      "item": "cdsam:flint_sword"
+    },
+    "S":{
+      "tag":"cdsam:adhesive"
+    }
+  },
+  "result": {
+    "item": "cdsam:flint_pickaxe"
+  }
+}

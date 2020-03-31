@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S  ",
+    "SS ",
+    "SSS"
+  ],
+  "key": {
+    "S":{
+      "item":"cdsam:packed_ice_bricks"
+    }
+  },
+  "result": {
+    "item": "cdsam:packed_ice_brick_stairs",
+    "count": 4
+  }
+}

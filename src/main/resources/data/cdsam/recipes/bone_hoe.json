@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SB",
+    " /"
+  ],
+  "key": {
+    "/": {
+      "tag": "forge:rods/wooden"
+    },
+    "B": {
+      "tag": "forge:bones"
+    },
+    "S":{
+      "tag":"cdsam:adhesive"
+    }
+  },
+  "result": {
+    "item": "cdsam:bone_hoe"
+  }
+}

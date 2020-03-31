@@ -1,0 +1,74 @@
+{
+	"item.cdsam.bone_axe":"Bone Hatchet",
+	"item.cdsam.bone_hoe":"Bone Hoe",
+	"item.cdsam.bone_pickaxe":"Bone Pick",
+	"item.cdsam.bone_sword":"Bone Knife",
+
+	"item.cdsam.flint_axe":"Flint Hatchet",
+	"item.cdsam.flint_hoe":"Flint Hoe",
+	"item.cdsam.flint_pickaxe":"Flint Pick",
+	"item.cdsam.flint_shovel":"Flint Spade",
+	"item.cdsam.flint_sword":"Flint Knife",
+
+	"item.cdsam.netherrack_axe":"Netherrack Axe",
+	"item.cdsam.netherrack_hoe":"Netherrack Hoe",
+	"item.cdsam.netherrack_pickaxe":"Nethrrack Pickaxe",
+	"item.cdsam.netherrack_shovel":"Netherrack Shovel",
+	"item.cdsam.netherrack_sword":"Netherrack Sword",
+
+	"item.cdsam.quartz_axe":"Quartz Hatchet",
+	"item.cdsam.quartz_hoe":"Quartz Hoe",
+	"item.cdsam.quartz_pickaxe":"Quartz Pick",
+	"item.cdsam.quartz_shovel":"Quartz Spade",
+	"item.cdsam.quartz_sword":"Quartz Knife",
+
+	"item.cdsam.sandstone_axe":"Sandstone Axe",
+	"item.cdsam.sandstone_hoe":"Sandstone Hoe",
+	"item.cdsam.sandstone_pickaxe":"Sandstone Pickaxe",
+	"item.cdsam.sandstone_shovel":"Sandstone Shovel",
+	"item.cdsam.sandstone_sword":"Sandstone Sword",
+
+	"item.cdsam.wooden_shield":"Crude Shield",
+
+
+	"item.cdsam.chain":"Chain",
+
+	"item.cdsam.knapped_flint":"Knapped Flint",
+	"item.cdsam.carved_quartz":"Carved Quartz",
+
+	"item.cdsam.cactus_stew":"Cactus Stew",
+	"item.cdsam.nether_wart_stew":"Nether Wart Stew",
+	"item.cdsam.chorus_fruit_stew":"Chorus Stew",
+	"item.cdsam.potato_soup":"Potato Soup",
+	"item.cdsam.carrot_soup":"Carrot Soup",
+
+	"block.cdsam.scrap_planks":"Scrap Planks",
+	"block.cdsam.scrap_stairs":"Scrap Stairs",
+	"block.cdsam.scrap_slab":"Scrap Slab",
+	"block.cdsam.scrap_fence":"Scrap Fence",
+	"block.cdsam.scrap_fence_gate":"Scrap Fence Gate",
+	"block.cdsam.mud_bricks":"Mud Bricks",
+	"block.cdsam.mud_brick_stairs":"Mud Brick Stairs",
+	"block.cdsam.mud_brick_slab":"Mud Brick Slab",
+	"block.cdsam.mud_brick_wall":"Mud Brick Wall",
+	"block.cdsam.red_sandstone_bricks":"Red Sandstone Bricks",
+	"block.cdsam.red_sandstone_brick_stairs":"Red Sandstone Brick Stairs",
+	"block.cdsam.red_sandstone_brick_slab":"Red Sandstone Brick Slab",
+	"block.cdsam.red_sandstone_brick_wall":"Red Sandstone Brick Wall",
+	"block.cdsam.sandstone_bricks":"Sandstone Bricks",
+	"block.cdsam.sandstone_brick_stairs":"Sandstone Brick Stairs",
+	"block.cdsam.sandstone_brick_slab":"Sandstone Brick Slab",
+	"block.cdsam.sandstone_brick_wall":"Sandstone Brick Wall",
+	"block.cdsam.snow_bricks":"Snow Bricks",
+	"block.cdsam.snow_brick_stairs":"Snow Brick Stairs",
+	"block.cdsam.snow_brick_slab":"Snow Brick Slab",
+	"block.cdsam.snow_brick_wall":"Snow Brick Wall",
+	"block.cdsam.packed_ice_bricks":"Packed Ice Bricks",
+	"block.cdsam.packed_ice_brick_stairs":"Packed Ice Brick Stairs",
+	"block.cdsam.packed_ice_brick_slab":"Packed Ice Brick Slab",
+	"block.cdsam.packed_ice_brick_wall":"Packed Ice Brick Wall",
+	"block.cdsam.chiseled_packed_ice_bricks":"Chiseled Packed Ice Bricks",
+
+	"itemGroup.cdsam_items":"Survival Additions: Items",
+	"itemGroup.cdsam_blocks":"Survival Additions: Blocks"
+}

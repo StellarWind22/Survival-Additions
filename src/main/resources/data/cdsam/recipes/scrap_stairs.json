@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S  ",
+    "SS ",
+    "SSS"
+  ],
+  "key": {
+    "S":{
+      "item":"cdsam:scrap_planks"
+    }
+  },
+  "result": {
+    "item": "cdsam:scrap_stairs",
+    "count": 4
+  }
+}

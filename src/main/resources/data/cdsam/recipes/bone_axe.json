@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SB"
+  ],
+  "key": {
+    "B": {
+      "item": "cdsam:bone_pickaxe"
+    },
+    "S":{
+      "tag":"forge:bones"
+    }
+  },
+  "result": {
+    "item": "cdsam:bone_axe"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    " / ",
+    " / "
+  ],
+  "key": {
+    "/": {
+      "tag": "forge:rods/wooden"
+    },
+    "S": {
+      "tag": "forge:sandstone"
+    }
+  },
+  "result": {
+    "item": "cdsam:sandstone_pickaxe"
+  }
+}

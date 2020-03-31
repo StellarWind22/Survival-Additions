@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "cdsam:block/packed_ice_brick_slab" },
+        "type=top": { "model": "cdsam:block/packed_ice_brick_slab_top" },
+        "type=double": { "model": "cdsam:block/packed_ice_bricks" }
+    }
+}
