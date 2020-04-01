@@ -97,7 +97,7 @@ public class Registry
 			ModItems.scrap_stairs = new BlockItem(ModBlocks.scrap_stairs, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.scrap_stairs.getRegistryName()),
 			ModItems.scrap_slab = new BlockItem(ModBlocks.scrap_slab, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.scrap_slab.getRegistryName()),
 			
-			ModItems.wet_mud_bricks = new BlockItem(ModBlocks.wet_mud_bricks, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.wet_mud_bricks.getRegistryName()),
+			//ModItems.wet_mud_bricks = new BlockItem(ModBlocks.wet_mud_bricks, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.wet_mud_bricks.getRegistryName()),
 			
 			ModItems.mud_bricks = new BlockItem(ModBlocks.mud_bricks, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.mud_bricks.getRegistryName()),
 			ModItems.mud_brick_stairs = new BlockItem(ModBlocks.mud_brick_stairs, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.mud_brick_stairs.getRegistryName()),

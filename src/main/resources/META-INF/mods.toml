@@ -4,7 +4,7 @@ issueTrackerURL="https://github.com/CrimsonDawn45/survival-additions/issues" #op
 
 [[mods]] #mandatory
 modId="cdsam" #mandatory
-version="1.0.0" #mandatory
+version="1.0.0a" #mandatory
 displayName="Survival Additions" #mandatory
 displayURL="https://www.curseforge.com/minecraft/mc-mods/survival-additions" #optional
 logoFile="cdsam.png" #optional
