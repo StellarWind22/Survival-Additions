@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B",
+    "/"
+  ],
+  "key": {
+    "/": {
+      "tag": "fabric:sticks"
+    },
+    "B": {
+      "item": "cdsam:knapped_flint"
+    }
+  },
+  "result": {
+    "item": "cdsam:flint_sword"
+  }
+}

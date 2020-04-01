@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S":{
+      "item":"cdsam:mud_bricks"
+    }
+  },
+  "result": {
+    "item": "cdsam:mud_brick_wall",
+    "count": 6
+  }
+}

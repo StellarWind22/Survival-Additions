@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DC",
+    "CD"
+  ],
+  "key": {
+    "D":{
+      "item":"minecraft:dirt"
+    },
+    "C":{
+      "item":"minecraft:clay_ball"
+    }
+  },
+  "result": {
+    "item": "cdsam:mud_bricks",
+    "count": 4
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "replace": true,
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    " / ",
+    " / "
+  ],
+  "key": {
+    "/": {
+      "tag": "fabric:sticks"
+    },
+    "S": {
+      "tag": "fabric:raw_stone"
+    }
+  },
+  "result": {
+    "item": "minecraft:stone_pickaxe"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SB"
+  ],
+  "key": {
+    "B": {
+      "item": "cdsam:quartz_pickaxe"
+    },
+    "S":{
+      "tag":"fabric:quartz"
+    }
+  },
+  "result": {
+    "item": "cdsam:quartz_axe"
+  }
+}

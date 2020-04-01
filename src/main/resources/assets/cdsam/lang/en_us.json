@@ -47,27 +47,41 @@
 	"block.cdsam.scrap_slab":"Scrap Slab",
 	"block.cdsam.scrap_fence":"Scrap Fence",
 	"block.cdsam.scrap_fence_gate":"Scrap Fence Gate",
+
 	"block.cdsam.mud_bricks":"Mud Bricks",
 	"block.cdsam.mud_brick_stairs":"Mud Brick Stairs",
 	"block.cdsam.mud_brick_slab":"Mud Brick Slab",
 	"block.cdsam.mud_brick_wall":"Mud Brick Wall",
-	"block.cdsam.red_sandstone_bricks":"Red Sandstone Bricks",
-	"block.cdsam.red_sandstone_brick_stairs":"Red Sandstone Brick Stairs",
-	"block.cdsam.red_sandstone_brick_slab":"Red Sandstone Brick Slab",
-	"block.cdsam.red_sandstone_brick_wall":"Red Sandstone Brick Wall",
+
 	"block.cdsam.sandstone_bricks":"Sandstone Bricks",
 	"block.cdsam.sandstone_brick_stairs":"Sandstone Brick Stairs",
 	"block.cdsam.sandstone_brick_slab":"Sandstone Brick Slab",
 	"block.cdsam.sandstone_brick_wall":"Sandstone Brick Wall",
+
+	"block.cdsam.red_sandstone_bricks":"Red Sandstone Bricks",
+	"block.cdsam.red_sandstone_brick_stairs":"Red Sandstone Brick Stairs",
+	"block.cdsam.red_sandstone_brick_slab":"Red Sandstone Brick Slab",
+	"block.cdsam.red_sandstone_brick_wall":"Red Sandstone Brick Wall",
+
 	"block.cdsam.snow_bricks":"Snow Bricks",
 	"block.cdsam.snow_brick_stairs":"Snow Brick Stairs",
 	"block.cdsam.snow_brick_slab":"Snow Brick Slab",
 	"block.cdsam.snow_brick_wall":"Snow Brick Wall",
+
 	"block.cdsam.packed_ice_bricks":"Packed Ice Bricks",
 	"block.cdsam.packed_ice_brick_stairs":"Packed Ice Brick Stairs",
 	"block.cdsam.packed_ice_brick_slab":"Packed Ice Brick Slab",
 	"block.cdsam.packed_ice_brick_wall":"Packed Ice Brick Wall",
 	"block.cdsam.chiseled_packed_ice_bricks":"Chiseled Packed Ice Bricks",
+
+	"block.cdsam.obsidian_stairs":"Obsidian Stairs",
+	"block.cdsam.obsidian_slab":"Obsidian Slab",
+	"block.cdsam.obsidian_wall":"Obsidian Wall",
+
+	"block.cdsam.obsidian_bricks":"Obsidian Bricks",
+	"block.cdsam.obsidian_brick_stairs":"Obsidian Brick Stairs",
+	"block.cdsam.obsidian_brick_slab":"Obsidian Brick Slab",
+	"block.cdsam.obsidian_brick_wall":"Obsidian Brick Wall",
 
 	"itemGroup.cdsam.cdsam_items":"Survival Additions: Items",
 	"itemGroup.cdsam.cdsam_blocks":"Survival Additions: Blocks"

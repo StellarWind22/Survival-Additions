@@ -38,4 +38,13 @@ public class ModBlocks
 	public static ModBlock packed_ice_brick_slab;
 	public static ModBlock packed_ice_brick_wall;
 	public static ModBlock chiseled_packed_ice_bricks;
+	
+	public static ModBlock obsidian_stairs;
+	public static ModBlock obsidian_slab;
+	public static ModBlock obsidian_wall;
+	
+	public static ModBlock obsidian_bricks;
+	public static ModBlock obsidian_brick_stairs;
+	public static ModBlock obsidian_brick_slab;
+	public static ModBlock obsidian_brick_wall;
 }

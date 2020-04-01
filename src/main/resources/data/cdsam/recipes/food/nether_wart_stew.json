@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:nether_wart"
+    },{
+      "item": "minecraft:nether_wart"
+    },{
+      "item": "minecraft:nether_wart"
+    },{
+      "item": "minecraft:nether_wart"
+    },{
+      "item": "minecraft:nether_wart"
+    },{
+      "item": "minecraft:nether_wart"
+    },{
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "cdsam:nether_wart_stew"
+  }
+}

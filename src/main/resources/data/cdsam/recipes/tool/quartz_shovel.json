@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SB",
+    " /"
+  ],
+  "key": {
+    "/": {
+      "tag": "fabric:sticks"
+    },
+    "B": {
+      "item": "minecraft:quartz"
+    },
+    "S":{
+      "tag":"cdsam:adhesive"
+    }
+  },
+  "result": {
+    "item": "cdsam:quartz_shovel"
+  }
+}

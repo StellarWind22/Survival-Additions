@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SB",
+    " /"
+  ],
+  "key": {
+    "/": {
+      "tag": "fabric:sticks"
+    },
+    "B": {
+      "item": "minecraft:bone"
+    },
+    "S":{
+      "tag":"cdsam:adhesive"
+    }
+  },
+  "result": {
+    "item": "cdsam:bone_hoe"
+  }
+}

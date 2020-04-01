@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_stairs",
+  "pattern": [
+    "S  ",
+    "SS ",
+    "SSS"
+  ],
+  "key": {
+    "S":{
+      "item":"cdsam:scrap_planks"
+    }
+  },
+  "result": {
+    "item": "cdsam:scrap_stairs",
+    "count": 4
+  }
+}

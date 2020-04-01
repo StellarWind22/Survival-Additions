@@ -3,7 +3,13 @@ package me.crimsondawn45.cdsam;
 import me.crimsondawn45.cdsam.list.ModBlocks;
 import me.crimsondawn45.cdsam.list.ModItems;
 import me.crimsondawn45.cdsam.object.ModAxeItem;
+import me.crimsondawn45.cdsam.object.ModChorusStewItem;
+import me.crimsondawn45.cdsam.object.ModFoods;
 import me.crimsondawn45.cdsam.object.ModHoeItem;
+import me.crimsondawn45.cdsam.object.ModObsidianBlock;
+import me.crimsondawn45.cdsam.object.ModObsidianSlab;
+import me.crimsondawn45.cdsam.object.ModObsidianStairs;
+import me.crimsondawn45.cdsam.object.ModObsidianWall;
 import me.crimsondawn45.cdsam.object.ModPickaxeItem;
 import me.crimsondawn45.cdsam.object.ModShovelItem;
 import me.crimsondawn45.cdsam.object.ModStairsBlock;
@@ -11,7 +17,6 @@ import me.crimsondawn45.cdsam.object.ModSwordItem;
 import me.crimsondawn45.cdsam.object.ModToolMaterials;
 import me.crimsondawn45.cdsam.util.ModBlock;
 import me.crimsondawn45.cdsam.util.ModBlockItem;
-import me.crimsondawn45.cdsam.util.ModFireManager;
 import me.crimsondawn45.cdsam.util.ModItem;
 import me.crimsondawn45.cdsam.util.RegistryHandler;
 import net.fabricmc.api.ModInitializer;
@@ -28,6 +33,7 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.MushroomStewItem;
 import net.minecraft.util.Identifier;
 
 public class SurvivalAdditions implements ModInitializer
@@ -70,7 +76,16 @@ public class SurvivalAdditions implements ModInitializer
 				ModBlocks.packed_ice_bricks = new ModBlock("packed_ice_bricks", new Block(FabricBlockSettings.copy(Blocks.PACKED_ICE).build())),
 				ModBlocks.packed_ice_brick_stairs = new ModBlock("packed_ice_brick_stairs", new ModStairsBlock(ModBlocks.packed_ice_bricks.getBlock().getDefaultState(), AbstractBlock.Settings.copy(ModBlocks.packed_ice_bricks.getBlock()))),
 				ModBlocks.packed_ice_brick_slab = new ModBlock("packed_ice_brick_slab", new SlabBlock(Settings.copy(ModBlocks.packed_ice_bricks.getBlock()))),
-				ModBlocks.packed_ice_brick_wall = new ModBlock("packed_ice_brick_wall", new WallBlock(Settings.copy(ModBlocks.packed_ice_bricks.getBlock())))
+				ModBlocks.packed_ice_brick_wall = new ModBlock("packed_ice_brick_wall", new WallBlock(Settings.copy(ModBlocks.packed_ice_bricks.getBlock()))),
+				
+				ModBlocks.obsidian_stairs = new ModBlock("obsidian_stairs", new ModObsidianStairs(Blocks.OBSIDIAN.getDefaultState() ,Settings.copy(Blocks.OBSIDIAN))),
+				ModBlocks.obsidian_slab = new ModBlock("obsidian_slab", new ModObsidianSlab(Settings.copy(Blocks.OBSIDIAN))),
+				ModBlocks.obsidian_wall = new ModBlock("obsidian_wall", new ModObsidianWall(Settings.copy(Blocks.OBSIDIAN))),
+				
+				ModBlocks.obsidian_bricks = new ModBlock("obsidian_bricks", new ModObsidianBlock(Settings.copy(Blocks.OBSIDIAN))),
+				ModBlocks.obsidian_brick_stairs = new ModBlock("obsidian_brick_stairs", new ModObsidianStairs(ModBlocks.obsidian_bricks.getBlock().getDefaultState(), Settings.copy(ModBlocks.obsidian_bricks.getBlock()))),
+				ModBlocks.obsidian_brick_slab = new ModBlock("obsidian_brick_slab", new ModObsidianSlab(Settings.copy(ModBlocks.obsidian_bricks.getBlock()))),
+				ModBlocks.obsidian_brick_wall = new ModBlock("obsidian_brick_wall", new ModObsidianWall(Settings.copy(ModBlocks.obsidian_bricks.getBlock())))
 		);
 		
 		RegistryHandler.registerItems
@@ -112,6 +127,13 @@ public class SurvivalAdditions implements ModInitializer
 				ModItems.sandstone_axe = new ModItem("sandstone_axe", new ModAxeItem(ModToolMaterials.sandstone, new Item.Settings().group(CDSAM_ITEMS))),
 				ModItems.sandstone_hoe = new ModItem("sandstone_hoe", new ModHoeItem(ModToolMaterials.sandstone, new Item.Settings().group(CDSAM_ITEMS))),
 				
+					//Food
+				ModItems.cactus_stew = new ModItem("cactus_stew", new MushroomStewItem(new Item.Settings().group(CDSAM_ITEMS).food(ModFoods.CACTUS_STEW))),
+				ModItems.nether_wart_stew = new ModItem("nether_wart_stew", new MushroomStewItem(new Item.Settings().group(CDSAM_ITEMS).food(ModFoods.NETHER_WART_STEW))),
+				ModItems.chorus_fruit_stew = new ModItem("chorus_fruit_stew", new ModChorusStewItem(new Item.Settings().group(CDSAM_ITEMS).food(ModFoods.CHORUS_FRUIT_STEW))),
+				ModItems.carrot_soup = new ModItem("carrot_soup", new MushroomStewItem(new Item.Settings().group(CDSAM_ITEMS).food(ModFoods.CARROT_SOUP))),
+				ModItems.potato_soup = new ModItem("potato_soup", new MushroomStewItem(new Item.Settings().group(CDSAM_ITEMS).food(ModFoods.POTATO_SOUP))),
+				
 				//BlockItems
 				ModItems.scrap_planks = new ModBlockItem(ModBlocks.scrap_planks, new BlockItem(ModBlocks.scrap_planks.getBlock(), new Item.Settings().group(CDSAM_BLOCKS))),
 				ModItems.scrap_stairs = new ModBlockItem(ModBlocks.scrap_stairs, new BlockItem(ModBlocks.scrap_stairs.getBlock(), new Item.Settings().group(CDSAM_BLOCKS))),
@@ -140,9 +162,18 @@ public class SurvivalAdditions implements ModInitializer
 				ModItems.packed_ice_bricks = new ModBlockItem(ModBlocks.packed_ice_bricks, new BlockItem(ModBlocks.packed_ice_bricks.getBlock(), new Item.Settings().group(CDSAM_BLOCKS))),
 				ModItems.packed_ice_brick_stairs = new ModBlockItem(ModBlocks.packed_ice_brick_stairs, new BlockItem(ModBlocks.packed_ice_brick_stairs.getBlock(), new Item.Settings().group(CDSAM_BLOCKS))),
 				ModItems.packed_ice_brick_slab = new ModBlockItem(ModBlocks.packed_ice_brick_slab, new BlockItem(ModBlocks.packed_ice_brick_slab.getBlock(), new Item.Settings().group(CDSAM_BLOCKS))),
-				ModItems.packed_ice_brick_wall = new ModBlockItem(ModBlocks.packed_ice_brick_wall, new BlockItem(ModBlocks.packed_ice_brick_wall.getBlock(), new Item.Settings().group(CDSAM_BLOCKS)))
+				ModItems.packed_ice_brick_wall = new ModBlockItem(ModBlocks.packed_ice_brick_wall, new BlockItem(ModBlocks.packed_ice_brick_wall.getBlock(), new Item.Settings().group(CDSAM_BLOCKS))),
+				
+				ModItems.obsidian_stairs = new ModBlockItem(ModBlocks.obsidian_stairs, new BlockItem(ModBlocks.obsidian_stairs.getBlock(), new Item.Settings().group(CDSAM_BLOCKS))),
+				ModItems.obsidian_brick_slab = new ModBlockItem(ModBlocks.obsidian_slab, new BlockItem(ModBlocks.obsidian_slab.getBlock(), new Item.Settings().group(CDSAM_BLOCKS))),
+				ModItems.obsidian_brick_wall = new ModBlockItem(ModBlocks.obsidian_wall, new BlockItem(ModBlocks.obsidian_wall.getBlock(), new Item.Settings().group(CDSAM_BLOCKS))),
+				
+				ModItems.obsidian_bricks = new ModBlockItem(ModBlocks.obsidian_bricks, new BlockItem(ModBlocks.obsidian_bricks.getBlock(), new Item.Settings().group(CDSAM_BLOCKS))),
+				ModItems.obsidian_brick_stairs = new ModBlockItem(ModBlocks.obsidian_brick_stairs, new BlockItem(ModBlocks.obsidian_brick_stairs.getBlock(), new Item.Settings().group(CDSAM_BLOCKS))),
+				ModItems.obsidian_brick_slab = new ModBlockItem(ModBlocks.obsidian_brick_slab, new BlockItem(ModBlocks.obsidian_brick_slab.getBlock(), new Item.Settings().group(CDSAM_BLOCKS))),
+				ModItems.obsidian_brick_wall = new ModBlockItem(ModBlocks.obsidian_brick_wall, new BlockItem(ModBlocks.obsidian_brick_wall.getBlock(), new Item.Settings().group(CDSAM_BLOCKS)))
 		);
 		
-		ModFireManager.init();
+		//ModFireManager.init();
 	}
 }
