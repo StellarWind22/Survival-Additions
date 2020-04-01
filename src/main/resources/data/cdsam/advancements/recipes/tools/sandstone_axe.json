@@ -2,7 +2,7 @@
   "parent": "cdsam:recipes/root",
   "rewards": {
     "recipes": [
-      "cdsam:sandstone_axe"
+      "cdsam:sandstone_pickaxe"
     ]
   },
   "criteria": {
@@ -19,7 +19,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "cdsam:sandstone_axe"
+        "recipe": "cdsam:sandstone_pickaxe"
       }
     }
   },

@@ -2,7 +2,7 @@
   "parent": "cdsam:recipes/root",
   "rewards": {
     "recipes": [
-      "cdsam:netherrack_axe"
+      "cdsam:netherrack_pickaxe"
     ]
   },
   "criteria": {
@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "fabric:netherrack"
+            "item": "minecraft:netherrack"
           }
         ]
       }
@@ -19,7 +19,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "cdsam:netherrack_axe"
+        "recipe": "cdsam:netherrack_pickaxe"
       }
     }
   },

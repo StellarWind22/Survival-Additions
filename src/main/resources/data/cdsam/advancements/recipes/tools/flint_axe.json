@@ -2,7 +2,7 @@
   "parent": "cdsam:recipes/root",
   "rewards": {
     "recipes": [
-      "cdsam:flint_axe"
+      "cdsam:flint_pickaxe"
     ]
   },
   "criteria": {
@@ -19,7 +19,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "cdsam:flint_axe"
+        "recipe": "cdsam:flint_pickaxe"
       }
     }
   },

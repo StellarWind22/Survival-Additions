@@ -2,16 +2,16 @@
   "parent": "cdsam:recipes/root",
   "rewards": {
     "recipes": [
-      "cdsam:netherrack_hoe"
+      "cdsam:bone_shovel"
     ]
   },
   "criteria": {
-    "has_netherrack": {
+    "has_bone": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:netherrack"
+            "tag": "fabric:bone"
           }
         ]
       }
@@ -19,13 +19,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "cdsam:netherrack_hoe"
+        "recipe": "cdsam:bone_shovel"
       }
     }
   },
   "requirements": [
     [
-      "has_netherrack",
+      "has_bone",
       "has_the_recipe"
     ]
   ]

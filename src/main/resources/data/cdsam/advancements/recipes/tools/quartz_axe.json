@@ -2,7 +2,7 @@
   "parent": "cdsam:recipes/root",
   "rewards": {
     "recipes": [
-      "cdsam:quartz_axe"
+      "cdsam:quartz_pickaxe"
     ]
   },
   "criteria": {
@@ -19,7 +19,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "cdsam:quartz_axe"
+        "recipe": "cdsam:quartz_pickaxe"
       }
     }
   },

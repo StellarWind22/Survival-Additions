@@ -2,16 +2,16 @@
   "parent": "cdsam:recipes/root",
   "rewards": {
     "recipes": [
-      "cdsam:netherrack_hoe"
+      "cdsam:mud_bricks"
     ]
   },
   "criteria": {
-    "has_netherrack": {
+    "has_dirt": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:netherrack"
+            "item": "minecraft:dirt"
           }
         ]
       }
@@ -19,13 +19,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "cdsam:netherrack_hoe"
+        "recipe": "cdsam:mud_bricks"
       }
     }
   },
   "requirements": [
     [
-      "has_netherrack",
+      "has_dirt",
       "has_the_recipe"
     ]
   ]

@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cdsam:chiseled_packed_ice_bricks"
+          "name": "cdsam:obsidian_brick_wall"
         }
       ],
       "conditions": [
