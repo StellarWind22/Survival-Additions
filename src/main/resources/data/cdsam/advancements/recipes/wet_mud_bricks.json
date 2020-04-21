@@ -1,0 +1,32 @@
+{
+  "parent": "cdsam:recipes/root",
+  "rewards": {
+    "recipes": [
+      "cdsam:wet_mud_bricks"
+    ]
+  },
+  "criteria": {
+    "has_dirt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:dirt"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "cdsam:wet_mud_bricks"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_dirt",
+      "has_the_recipe"
+    ]
+  ]
+}

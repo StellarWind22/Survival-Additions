@@ -86,4 +86,18 @@ public class ModItems
 	public static Item packed_ice_brick_slab;
 	public static Item packed_ice_brick_wall;
 	public static Item chiseled_packed_ice_bricks;
+	
+	public static Item obsidian_stairs;
+	public static Item obsidian_slab;
+	public static Item obsidian_wall;
+	public static Item polished_obsidian;
+	public static Item polished_obsidian_stairs;
+	public static Item polished_obsidian_slab;
+	public static Item polished_obsidian_wall;
+	public static Item polished_obsidian_button;
+	public static Item polished_obsidian_pressure_plate;
+	public static Item polished_obsidian_bricks;
+	public static Item polished_obsidian_brick_stairs;
+	public static Item polished_obsidian_brick_slab;
+	public static Item polished_obsidian_brick_wall;
 }

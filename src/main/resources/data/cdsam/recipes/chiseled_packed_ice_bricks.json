@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S",
+    "S"
+  ],
+  "key": {
+    "S":{
+      "item":"cdsam:packed_ice_brick_slab"
+    }
+  },
+  "result": {
+    "item": "cdsam:chiseled_packed_ice_bricks",
+    "count": 1
+  }
+}

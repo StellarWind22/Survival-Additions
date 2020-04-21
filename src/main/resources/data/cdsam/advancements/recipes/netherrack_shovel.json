@@ -1,0 +1,32 @@
+{
+  "parent": "cdsam:recipes/root",
+  "rewards": {
+    "recipes": [
+      "cdsam:netherrack_shovel"
+    ]
+  },
+  "criteria": {
+    "has_netherrack": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:netherrack"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "cdsam:netherrack_shovel"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_netherrack",
+      "has_the_recipe"
+    ]
+  ]
+}

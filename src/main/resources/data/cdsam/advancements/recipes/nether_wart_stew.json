@@ -1,0 +1,32 @@
+{
+  "parent": "cdsam:recipes/root",
+  "rewards": {
+    "recipes": [
+      "cdsam:nether_wart_stew"
+    ]
+  },
+  "criteria": {
+    "has_nether_wart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:crops/nether_wart"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "cdsam:nether_wart_stew"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_nether_wart",
+      "has_the_recipe"
+    ]
+  ]
+}

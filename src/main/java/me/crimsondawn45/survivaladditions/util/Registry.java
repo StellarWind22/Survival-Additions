@@ -7,12 +7,19 @@ import me.crimsondawn45.survivaladditions.init.ModBlocks;
 import me.crimsondawn45.survivaladditions.init.ModFoods;
 import me.crimsondawn45.survivaladditions.init.ModItems;
 import me.crimsondawn45.survivaladditions.object.ModChorusStewItem;
+import me.crimsondawn45.survivaladditions.object.ModObsidianBlock;
+import me.crimsondawn45.survivaladditions.object.ModObsidianButton;
+import me.crimsondawn45.survivaladditions.object.ModObsidianPressurePlate;
+import me.crimsondawn45.survivaladditions.object.ModObsidianSlab;
+import me.crimsondawn45.survivaladditions.object.ModObsidianStairs;
+import me.crimsondawn45.survivaladditions.object.ModObsidianWall;
 import me.crimsondawn45.survivaladditions.object.ModShieldItem;
 import me.crimsondawn45.survivaladditions.object.ModStairsBlock;
 import me.crimsondawn45.survivaladditions.object.ModToolMaterials;
 import me.crimsondawn45.survivaladditions.object.ModWetMudBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.PressurePlateBlock.Sensitivity;
 import net.minecraft.block.SlabBlock;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.WallBlock;
@@ -97,8 +104,7 @@ public class Registry
 			ModItems.scrap_stairs = new BlockItem(ModBlocks.scrap_stairs, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.scrap_stairs.getRegistryName()),
 			ModItems.scrap_slab = new BlockItem(ModBlocks.scrap_slab, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.scrap_slab.getRegistryName()),
 			
-			//ModItems.wet_mud_bricks = new BlockItem(ModBlocks.wet_mud_bricks, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.wet_mud_bricks.getRegistryName()),
-			
+			ModItems.wet_mud_bricks = new BlockItem(ModBlocks.wet_mud_bricks, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.wet_mud_bricks.getRegistryName()),
 			ModItems.mud_bricks = new BlockItem(ModBlocks.mud_bricks, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.mud_bricks.getRegistryName()),
 			ModItems.mud_brick_stairs = new BlockItem(ModBlocks.mud_brick_stairs, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.mud_brick_stairs.getRegistryName()),
 			ModItems.mud_brick_slab = new BlockItem(ModBlocks.mud_brick_slab, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.mud_brick_slab.getRegistryName()),
@@ -123,9 +129,22 @@ public class Registry
 			ModItems.packed_ice_brick_stairs = new BlockItem(ModBlocks.packed_ice_brick_stairs, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.packed_ice_brick_stairs.getRegistryName()),
 			ModItems.packed_ice_brick_slab = new BlockItem(ModBlocks.packed_ice_brick_slab, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.packed_ice_brick_slab.getRegistryName()),
 			ModItems.packed_ice_brick_wall = new BlockItem(ModBlocks.packed_ice_brick_wall, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.packed_ice_brick_wall.getRegistryName()),
-			ModItems.chiseled_packed_ice_bricks = new BlockItem(ModBlocks.chiseled_packed_ice_bricks, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.chiseled_packed_ice_bricks.getRegistryName())
+			ModItems.chiseled_packed_ice_bricks = new BlockItem(ModBlocks.chiseled_packed_ice_bricks, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.chiseled_packed_ice_bricks.getRegistryName()),
+			
+			ModItems.obsidian_stairs = new BlockItem(ModBlocks.obsidian_stairs, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.obsidian_stairs.getRegistryName()),
+			ModItems.obsidian_slab = new BlockItem(ModBlocks.obsidian_slab, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.obsidian_slab.getRegistryName()),
+			ModItems.obsidian_wall = new BlockItem(ModBlocks.obsidian_wall, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.obsidian_wall.getRegistryName()),
+			ModItems.polished_obsidian = new BlockItem(ModBlocks.polished_obsidian, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.polished_obsidian.getRegistryName()),
+			ModItems.polished_obsidian_stairs = new BlockItem(ModBlocks.polished_obsidian_stairs, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.polished_obsidian_stairs.getRegistryName()),
+			ModItems.polished_obsidian_slab = new BlockItem(ModBlocks.polished_obsidian_slab, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.polished_obsidian_slab.getRegistryName()),
+			ModItems.polished_obsidian_wall = new BlockItem(ModBlocks.polished_obsidian_wall, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.polished_obsidian_wall.getRegistryName()),
+			ModItems.polished_obsidian_button = new BlockItem(ModBlocks.polished_obsidian_button, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.polished_obsidian_button.getRegistryName()),
+			ModItems.polished_obsidian_pressure_plate = new BlockItem(ModBlocks.polished_obsidian_pressure_plate, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.polished_obsidian_pressure_plate.getRegistryName()),
+			ModItems.polished_obsidian_bricks = new BlockItem(ModBlocks.polished_obsidian_bricks, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.polished_obsidian_bricks.getRegistryName()),
+			ModItems.polished_obsidian_brick_stairs = new BlockItem(ModBlocks.polished_obsidian_brick_stairs, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.polished_obsidian_brick_stairs.getRegistryName()),
+			ModItems.polished_obsidian_brick_slab = new BlockItem(ModBlocks.polished_obsidian_brick_slab, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.polished_obsidian_brick_slab.getRegistryName()),
+			ModItems.polished_obsidian_brick_wall = new BlockItem(ModBlocks.polished_obsidian_brick_wall, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.polished_obsidian_brick_wall.getRegistryName())
 		);
-		
 		LOGGER.info("Items registered.");
 	}
 	
@@ -139,7 +158,6 @@ public class Registry
 			ModBlocks.scrap_slab = new SlabBlock(Block.Properties.from(ModBlocks.scrap_planks)).setRegistryName(resLoc("scrap_slab")),
 			
 			ModBlocks.wet_mud_bricks = new ModWetMudBlock(Block.Properties.from(Blocks.DIRT)).setRegistryName(resLoc("wet_mud_bricks")),
-			
 			ModBlocks.mud_bricks = new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIRT).hardnessAndResistance(0.8F)).setRegistryName(resLoc("mud_bricks")),
 			ModBlocks.mud_brick_stairs = new ModStairsBlock(ModBlocks.mud_bricks.getDefaultState(), Block.Properties.from(ModBlocks.mud_bricks)).setRegistryName(resLoc("mud_brick_stairs")),
 			ModBlocks.mud_brick_slab = new SlabBlock(Block.Properties.from(ModBlocks.mud_bricks)).setRegistryName(resLoc("mud_brick_slab")),
@@ -161,13 +179,26 @@ public class Registry
 			ModBlocks.snow_brick_slab = new SlabBlock(Block.Properties.from(ModBlocks.snow_bricks)).setRegistryName(resLoc("snow_brick_slab")),
 			ModBlocks.snow_brick_wall = new WallBlock(Block.Properties.from(ModBlocks.snow_bricks)).setRegistryName(resLoc("snow_brick_wall")),
 			
-			ModBlocks.packed_ice_bricks = new Block(Block.Properties.create(Material.PACKED_ICE, MaterialColor.ICE).sound(SoundType.GLASS).slipperiness(0.98F).hardnessAndResistance(2.0F)).setRegistryName(resLoc("packed_ice_bricks")),
+			ModBlocks.packed_ice_bricks = new Block(Block.Properties.create(Material.PACKED_ICE, MaterialColor.ICE).sound(SoundType.GLASS).slipperiness(0.98F).hardnessAndResistance(0.8F).harvestTool(ToolType.PICKAXE)).setRegistryName(resLoc("packed_ice_bricks")),
 			ModBlocks.packed_ice_brick_stairs = new ModStairsBlock(ModBlocks.packed_ice_bricks.getDefaultState(), Block.Properties.from(ModBlocks.packed_ice_bricks)).setRegistryName(resLoc("packed_ice_brick_stairs")),
 			ModBlocks.packed_ice_brick_slab = new SlabBlock(Block.Properties.from(ModBlocks.packed_ice_bricks)).setRegistryName(resLoc("packed_ice_brick_slab")),
 			ModBlocks.packed_ice_brick_wall = new WallBlock(Block.Properties.from(ModBlocks.packed_ice_bricks)).setRegistryName(resLoc("packed_ice_brick_wall")),
-			ModBlocks.chiseled_packed_ice_bricks = new Block(Block.Properties.create(Material.PACKED_ICE, MaterialColor.ICE).sound(SoundType.GLASS).slipperiness(0.98F).hardnessAndResistance(2.0F)).setRegistryName(resLoc("chiseled_packed_ice_bricks"))
+			ModBlocks.chiseled_packed_ice_bricks = new Block(Block.Properties.from(ModBlocks.packed_ice_bricks)).setRegistryName(resLoc("chiseled_packed_ice_bricks")),
+			
+			ModBlocks.obsidian_stairs = new ModObsidianStairs(Blocks.OBSIDIAN.getDefaultState(), Block.Properties.from(Blocks.OBSIDIAN)).setRegistryName(resLoc("obsidian_stairs")),
+			ModBlocks.obsidian_slab = new ModObsidianSlab(Block.Properties.from(Blocks.OBSIDIAN)).setRegistryName(resLoc("obsidian_slab")),
+			ModBlocks.obsidian_wall = new ModObsidianWall(Block.Properties.from(Blocks.OBSIDIAN)).setRegistryName(resLoc("obsidian_wall")),
+			ModBlocks.polished_obsidian = new ModObsidianBlock(Block.Properties.from(Blocks.OBSIDIAN)).setRegistryName(resLoc("polished_obsidian")),
+			ModBlocks.polished_obsidian_stairs = new ModObsidianStairs(ModBlocks.polished_obsidian.getDefaultState(), Block.Properties.from(ModBlocks.polished_obsidian)).setRegistryName(resLoc("polished_obsidian_stairs")),
+			ModBlocks.polished_obsidian_slab = new ModObsidianSlab(Block.Properties.from(ModBlocks.polished_obsidian)).setRegistryName(resLoc("polished_obsidian_slab")),
+			ModBlocks.polished_obsidian_wall = new ModObsidianWall(Block.Properties.from(ModBlocks.polished_obsidian)).setRegistryName(resLoc("polished_obsidian_wall")),
+			ModBlocks.polished_obsidian_button = new ModObsidianButton(Block.Properties.from(Blocks.OBSIDIAN).doesNotBlockMovement()).setRegistryName(resLoc("polished_obsidian_button")),
+			ModBlocks.polished_obsidian_pressure_plate = new ModObsidianPressurePlate(Sensitivity.MOBS, Block.Properties.from(ModBlocks.polished_obsidian_button)).setRegistryName(resLoc("polished_obsidian_pressure_plate")),
+			ModBlocks.polished_obsidian_bricks = new ModObsidianBlock(Block.Properties.from(ModBlocks.polished_obsidian)).setRegistryName(resLoc("polished_obsidian_bricks")),
+			ModBlocks.polished_obsidian_brick_stairs = new ModObsidianStairs(ModBlocks.polished_obsidian_bricks.getDefaultState(), Block.Properties.from(ModBlocks.polished_obsidian_bricks)).setRegistryName(resLoc("polished_obsidian_brick_stairs")),
+			ModBlocks.polished_obsidian_brick_slab = new ModObsidianSlab(Block.Properties.from(ModBlocks.polished_obsidian_bricks)).setRegistryName(resLoc("polished_obsidian_brick_slab")),
+			ModBlocks.polished_obsidian_brick_wall = new ModObsidianWall(Block.Properties.from(ModBlocks.polished_obsidian_bricks)).setRegistryName(resLoc("polished_obsidian_brick_wall"))
 		);
-		
 		LOGGER.info("Blocks registered.");
 	}
 	

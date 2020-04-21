@@ -1,0 +1,32 @@
+{
+  "parent": "cdsam:recipes/root",
+  "rewards": {
+    "recipes": [
+      "cdsam:sandstone_sword"
+    ]
+  },
+  "criteria": {
+    "has_sandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:sandstone"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "cdsam:sandstone_sword"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_sandstone",
+      "has_the_recipe"
+    ]
+  ]
+}

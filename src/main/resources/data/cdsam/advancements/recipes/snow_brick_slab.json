@@ -1,0 +1,32 @@
+{
+  "parent": "cdsam:recipes/root",
+  "rewards": {
+    "recipes": [
+      "cdsam:snow_brick_slab"
+    ]
+  },
+  "criteria": {
+    "has_snowball": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:snowball"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "cdsam:snow_brick_slab"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_snowball",
+      "has_the_recipe"
+    ]
+  ]
+}

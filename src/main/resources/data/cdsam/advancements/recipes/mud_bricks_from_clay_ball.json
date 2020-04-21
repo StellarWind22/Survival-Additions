@@ -1,0 +1,32 @@
+{
+  "parent": "cdsam:recipes/root",
+  "rewards": {
+    "recipes": [
+      "cdsam:mud_bricks"
+    ]
+  },
+  "criteria": {
+    "has_clay_ball": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:clay_ball"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "cdsam:mud_bricks"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_clay_ball",
+      "has_the_recipe"
+    ]
+  ]
+}

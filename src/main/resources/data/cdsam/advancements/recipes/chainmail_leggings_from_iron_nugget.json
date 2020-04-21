@@ -1,0 +1,32 @@
+{
+  "parent": "cdsam:recipes/root",
+  "rewards": {
+    "recipes": [
+      "cdsam:chainmail_leggings"
+    ]
+  },
+  "criteria": {
+    "has_iron_nugget": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:nuggets/iron"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "cdsam:chainmail_leggings"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_iron_nugget",
+      "has_the_recipe"
+    ]
+  ]
+}
