@@ -1,0 +1,8 @@
+{
+    "variants": {
+        "age=0": { "model": "cdsam:block/wet_mud_bricks_0" },
+        "age=1": { "model": "cdsam:block/wet_mud_bricks_1" },
+        "age=2": { "model": "cdsam:block/wet_mud_bricks_2" },
+        "age=3": { "model": "cdsam:block/wet_mud_bricks_3" }
+    }
+}

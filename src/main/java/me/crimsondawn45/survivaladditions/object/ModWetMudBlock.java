@@ -32,11 +32,6 @@ public class ModWetMudBlock extends Block {
 		}
 	}
 	
-	public BlockState updatePostPlacement()
-	{
-		return null;
-	}
-	
 	protected IntegerProperty getAgeProperty()
 	{
 		return AGE;
@@ -67,8 +62,7 @@ public class ModWetMudBlock extends Block {
 	//Check if it can dry
 	private static boolean canDry(World world, BlockPos pos)
 	{	
-		//If it is raining or it is nighttime
-		if(world.isRainingAt(pos) || !(world.isDaytime()) || world.getLightValue(pos) < 0)
+		if(world.isRainingAt(pos) || !(world.isDaytime()) || world.getLightValue(pos) < 7)
 		{
 			return false;
 		}
@@ -95,8 +89,6 @@ public class ModWetMudBlock extends Block {
 		{
 			world.setBlockState(pos, ModBlocks.mud_bricks.getDefaultState());
 		}
-		
-		//Add one to age
 		world.setBlockState(pos, this.withAge(age + 1));
 	}
 
