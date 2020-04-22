@@ -19,6 +19,12 @@ by CrimsonDawn45
 - Scrap Wood Planks, Slab and Stairs
 - Mud Bricks, Slab, Stairs, and Wall
 - Snow Bricks, Slab, Stairs, and Wall
+- Packed Ice Bricks, Slab, Stairs, and Wall
+- Sandstone Bricks, Stairs, Slab, and Wall
+- Red Sandstone Bricks, Stairs, Slab, and Wall
+- Obsidian Stairs, Slab, and Wall
+- Polished Obsidian, Slab, Stairs, Button, Pressure Plate, and Wall
+- Polished Obsidian Bricks, Slab, Stairs, and Wall
 
 ### Changes:
 - Stone tools can now be made from Andesite, Granite, Diorite, and Stone
