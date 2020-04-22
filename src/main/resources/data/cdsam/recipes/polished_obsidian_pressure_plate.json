@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SS"
+  ],
+  "key": {
+    "S":{
+      "item":"cdsam:polished_obsidian"
+    }
+  },
+  "result": {
+    "item": "cdsam:polished_obsidian_pressure_plate"
+  }
+}

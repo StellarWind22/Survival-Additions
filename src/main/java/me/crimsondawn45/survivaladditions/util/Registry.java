@@ -16,7 +16,6 @@ import me.crimsondawn45.survivaladditions.object.ModObsidianWall;
 import me.crimsondawn45.survivaladditions.object.ModShieldItem;
 import me.crimsondawn45.survivaladditions.object.ModStairsBlock;
 import me.crimsondawn45.survivaladditions.object.ModToolMaterials;
-import me.crimsondawn45.survivaladditions.object.ModWetMudBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.PressurePlateBlock.Sensitivity;
@@ -104,7 +103,7 @@ public class Registry
 			ModItems.scrap_stairs = new BlockItem(ModBlocks.scrap_stairs, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.scrap_stairs.getRegistryName()),
 			ModItems.scrap_slab = new BlockItem(ModBlocks.scrap_slab, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.scrap_slab.getRegistryName()),
 			
-			ModItems.wet_mud_bricks = new BlockItem(ModBlocks.wet_mud_bricks, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.wet_mud_bricks.getRegistryName()),
+			//ModItems.wet_mud_bricks = new BlockItem(ModBlocks.wet_mud_bricks, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.wet_mud_bricks.getRegistryName()),
 			ModItems.mud_bricks = new BlockItem(ModBlocks.mud_bricks, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.mud_bricks.getRegistryName()),
 			ModItems.mud_brick_stairs = new BlockItem(ModBlocks.mud_brick_stairs, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.mud_brick_stairs.getRegistryName()),
 			ModItems.mud_brick_slab = new BlockItem(ModBlocks.mud_brick_slab, new Item.Properties().group(BLOCK)).setRegistryName(ModBlocks.mud_brick_slab.getRegistryName()),
@@ -157,7 +156,7 @@ public class Registry
 			ModBlocks.scrap_stairs = new ModStairsBlock(ModBlocks.scrap_planks.getDefaultState(), Block.Properties.from(ModBlocks.scrap_planks)).setRegistryName(resLoc("scrap_stairs")),
 			ModBlocks.scrap_slab = new SlabBlock(Block.Properties.from(ModBlocks.scrap_planks)).setRegistryName(resLoc("scrap_slab")),
 			
-			ModBlocks.wet_mud_bricks = new ModWetMudBlock(Block.Properties.from(Blocks.DIRT)).setRegistryName(resLoc("wet_mud_bricks")),
+			//ModBlocks.wet_mud_bricks = new ModWetBlock(Block.Properties.from(Blocks.DIRT).tickRandomly()).setRegistryName(resLoc("wet_mud_bricks")),
 			ModBlocks.mud_bricks = new Block(Block.Properties.create(Material.ROCK, MaterialColor.DIRT).hardnessAndResistance(0.8F)).setRegistryName(resLoc("mud_bricks")),
 			ModBlocks.mud_brick_stairs = new ModStairsBlock(ModBlocks.mud_bricks.getDefaultState(), Block.Properties.from(ModBlocks.mud_bricks)).setRegistryName(resLoc("mud_brick_stairs")),
 			ModBlocks.mud_brick_slab = new SlabBlock(Block.Properties.from(ModBlocks.mud_bricks)).setRegistryName(resLoc("mud_brick_slab")),

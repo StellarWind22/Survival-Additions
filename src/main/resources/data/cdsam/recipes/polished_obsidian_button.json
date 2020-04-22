@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cdsam:polished_obsidian"
+    }
+  ],
+  "result": {
+    "item": "cdsam:polished_obsidian_button"
+  }
+}

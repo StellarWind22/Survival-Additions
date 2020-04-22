@@ -9,37 +9,35 @@ import net.minecraft.state.IntegerProperty;
 import net.minecraft.state.StateContainer;
 import net.minecraft.state.properties.BlockStateProperties;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
 
-public class ModWetMudBlock extends Block {
-	
+public class ModWetBlock extends Block
+{
 	public static final IntegerProperty AGE = BlockStateProperties.AGE_0_3;
 	
-	public ModWetMudBlock(Properties properties)
+	private static final int MIN_TICK_TIME = 20;
+	private static final int MAX_TICK_TIME = 40;
+	private static final int MAX_AGE = 3;
+	
+	public ModWetBlock(Properties properties)
 	{
 		super(properties);
 		this.setDefaultState(this.stateContainer.getBaseState().with(AGE, Integer.valueOf(0)));
 	}
 	
-	
-	//Method Run Each Tick
-	@Override
 	public void tick(BlockState state, World world, BlockPos pos, Random random)
 	{
-		if(random.nextInt(3) == 3)
+		if(random.nextInt(3) == 0 && this.canDry(world, pos))
 		{
-			dry(world, state, pos);
+			this.dry(world, state, pos);
 		}
+		world.getPendingBlockTicks().scheduleTick(pos, this, MathHelper.nextInt(random, MIN_TICK_TIME, MAX_TICK_TIME));
 	}
 	
 	protected IntegerProperty getAgeProperty()
 	{
 		return AGE;
-	}
-	
-	protected int getMaxAge()
-	{
-		return 3;
 	}
 	
 	public int getAge(BlockState state)
@@ -52,15 +50,7 @@ public class ModWetMudBlock extends Block {
 		return this.getDefaultState().with(this.getAgeProperty(), Integer.valueOf(age));
 	}
 	
-	//Make tick randomly
-	@Override
-	public boolean ticksRandomly(BlockState state)
-	{
-	      return true;
-	}
-	
-	//Check if it can dry
-	private static boolean canDry(World world, BlockPos pos)
+	private boolean canDry(World world, BlockPos pos)
 	{	
 		if(world.isRainingAt(pos) || !(world.isDaytime()) || world.getLightValue(pos) < 7)
 		{
@@ -69,13 +59,6 @@ public class ModWetMudBlock extends Block {
 		return true;
 	}
 	
-	/**
-	 * dry - Method for drying the block one unit.
-	 * 
-	 * @param worldIn	World block is in.
-	 * @param state		BlockState of block.
-	 * @param pos		Position of the block.
-	 */
 	private void dry(World world, BlockState state, BlockPos pos)
 	{
 		if(!canDry(world, pos))
@@ -85,14 +68,13 @@ public class ModWetMudBlock extends Block {
 		
 		int age = getAge(state);
 		
-		if(age == this.getMaxAge())
+		if(age == MAX_AGE)
 		{
 			world.setBlockState(pos, ModBlocks.mud_bricks.getDefaultState());
 		}
 		world.setBlockState(pos, this.withAge(age + 1));
 	}
 
-	//Add age to blockstate
 	@Override
 	public void fillStateContainer(StateContainer.Builder<Block, BlockState> builder)
 	{

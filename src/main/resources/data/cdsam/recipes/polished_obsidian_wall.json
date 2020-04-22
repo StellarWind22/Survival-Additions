@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S":{
+      "item":"cdsam:polished_obsidian"
+    }
+  },
+  "result": {
+    "item": "cdsam:polished_obsidian_wall",
+    "count": 6
+  }
+}
