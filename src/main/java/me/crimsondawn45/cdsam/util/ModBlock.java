@@ -1,7 +1,10 @@
 package me.crimsondawn45.cdsam.util;
 
+import me.crimsondawn45.cdsam.SurvivalAdditions;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
+import net.minecraft.util.Identifier;
+import net.minecraft.util.registry.Registry;
 
 public class ModBlock
 {
@@ -13,6 +16,8 @@ public class ModBlock
 	{
 		this.name = name;
 		this.block = block;
+		
+		Registry.register(Registry.BLOCK, new Identifier(SurvivalAdditions.MOD_ID, this.name), this.block);
 	}
 	
 	public String getName()

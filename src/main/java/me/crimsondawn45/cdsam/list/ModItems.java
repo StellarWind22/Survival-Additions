@@ -6,8 +6,6 @@ public class ModItems
 {
 	//ModItems
 		//Crafting
-	public static ModItem chain;
-		
 	public static ModItem knapped_flint;
 	public static ModItem carved_quartz;
 		
@@ -91,8 +89,15 @@ public class ModItems
 	public static ModItem obsidian_slab;
 	public static ModItem obsidian_wall;
 	
-	public static ModItem obsidian_bricks;
-	public static ModItem obsidian_brick_stairs;
-	public static ModItem obsidian_brick_slab;
-	public static ModItem obsidian_brick_wall;
+	public static ModItem polished_obsidian;
+	public static ModItem polished_obsidian_stairs;
+	public static ModItem polished_obsidian_slab;
+	public static ModItem polished_obsidian_wall;
+	public static ModItem polished_obsidian_button;
+	public static ModItem polished_obsidian_pressure_plate;
+	
+	public static ModItem polished_obsidian_bricks;
+	public static ModItem polished_obsidian_brick_stairs;
+	public static ModItem polished_obsidian_brick_slab;
+	public static ModItem polished_obsidian_brick_wall;
 }

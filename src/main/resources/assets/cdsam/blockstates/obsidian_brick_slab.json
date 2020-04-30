@@ -1,7 +1,0 @@
-{
-    "variants": {
-        "type=bottom": { "model": "cdsam:block/obsidian_brick_slab" },
-        "type=top": { "model": "cdsam:block/obsidian_brick_slab_top" },
-        "type=double": { "model": "cdsam:block/obsidian_bricks" }
-    }
-}

@@ -43,8 +43,15 @@ public class ModBlocks
 	public static ModBlock obsidian_slab;
 	public static ModBlock obsidian_wall;
 	
-	public static ModBlock obsidian_bricks;
-	public static ModBlock obsidian_brick_stairs;
-	public static ModBlock obsidian_brick_slab;
-	public static ModBlock obsidian_brick_wall;
+	public static ModBlock polished_obsidian;
+	public static ModBlock polished_obsidian_stairs;
+	public static ModBlock polished_obsidian_slab;
+	public static ModBlock polished_obsidian_wall;
+	public static ModBlock polished_obsidian_button;
+	public static ModBlock polished_obsidian_pressure_plate;
+	
+	public static ModBlock polished_obsidian_bricks;
+	public static ModBlock polished_obsidian_brick_stairs;
+	public static ModBlock polished_obsidian_brick_slab;
+	public static ModBlock polished_obsidian_brick_wall;
 }

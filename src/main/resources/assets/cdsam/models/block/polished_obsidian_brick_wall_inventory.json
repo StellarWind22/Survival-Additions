@@ -1,6 +1,6 @@
 {
     "parent": "block/wall_inventory",
     "textures": {
-        "wall": "cdsam:block/obsidian_bricks"
+        "wall": "cdsam:block/polished_obsidian_bricks"
     }
 }
