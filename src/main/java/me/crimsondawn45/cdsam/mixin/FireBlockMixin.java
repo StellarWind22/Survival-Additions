@@ -21,7 +21,7 @@ public class FireBlockMixin
 	@Shadow @Final private final Object2IntMap<Block> burnChances = new Object2IntOpenHashMap<Block>();
 	@Shadow @Final private final Object2IntMap<Block> spreadChances = new Object2IntOpenHashMap<Block>();
 	
-	@Inject(at = @At("HEAD"), method = "registerDefaultFlammables")
+	@Inject(at = @At("HEAD"), method = "registerDefaultFlammables()V")
 	private void registerDefaultFlammables(CallbackInfo info)
 	{
 		setFireInfo(ModBlocks.scrap_planks, FlammabilityType.PLANKS);
