@@ -81,7 +81,7 @@ public class SurvivalAdditions implements ModInitializer
 		ModBlocks.obsidian_wall = new ModBlock("obsidian_wall", new ModObsidianWall(Settings.copy(Blocks.OBSIDIAN)));
 		
 		ModBlocks.polished_obsidian = new ModBlock("polished_obsidian", new ModObsidianBlock(Settings.copy(Blocks.OBSIDIAN)));
-		ModBlocks.polished_obsidian_stairs = new ModBlock("polished_obsidian_stairs", new ModObsidianStairs(ModBlocks.polished_obsidian_stairs.getBlock().getDefaultState(),Settings.copy(Blocks.OBSIDIAN)));
+		ModBlocks.polished_obsidian_stairs = new ModBlock("polished_obsidian_stairs", new ModObsidianStairs(ModBlocks.polished_obsidian.getBlock().getDefaultState(),Settings.copy(Blocks.OBSIDIAN)));
 		ModBlocks.polished_obsidian_slab = new ModBlock("polished_obsidian_slab", new ModObsidianSlab(Settings.copy(Blocks.OBSIDIAN)));
 		ModBlocks.polished_obsidian_wall = new ModBlock("polished_obsidian_wall", new ModObsidianWall(Settings.copy(Blocks.OBSIDIAN)));
 		ModBlocks.polished_obsidian_button = new ModBlock("polished_obsidian_button", new ModObsidianButton(Settings.copy(Blocks.OBSIDIAN)));

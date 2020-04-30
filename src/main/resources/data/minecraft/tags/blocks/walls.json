@@ -7,6 +7,7 @@
     "cdsam:snow_brick_wall",
     "cdsam:packed_ice_brick_wall",
     "cdsam:obsidian_wall",
-    "cdsam:obsidian_brick_wall"
+    "cdsam:polished_obsidian_wall",
+    "cdsam:polished_obsidian_brick_wall"
   ]
 }

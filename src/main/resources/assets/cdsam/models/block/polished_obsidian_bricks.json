@@ -1,6 +1,6 @@
 {
     "parent": "block/cube_all",
     "textures": {
-        "all": "cdsam:block/polished_obsidian_brick"
+        "all": "cdsam:block/polished_obsidian_bricks"
     }
 }
