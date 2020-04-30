@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "cdsam",
-  "version": "1.0.3a",
+  "version": "1.0.4a",
 
   "name": "Survival Additions",
   "description": "adds new tools and food items for extreme survival situations and makes a few previously uncraftable items craftable.",
@@ -30,7 +30,7 @@
   "depends": {
     "fabricloader": ">=0.7.10",
     "fabric": "*",
-    "minecraft": "1.16-alpha.20.17.a"
+    "minecraft": "1.16-alpha.20.18.a"
   },
   "suggests": {
     "flamingo": "*"

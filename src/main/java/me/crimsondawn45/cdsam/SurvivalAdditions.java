@@ -21,13 +21,11 @@ import me.crimsondawn45.cdsam.util.ModBlock;
 import me.crimsondawn45.cdsam.util.ModBlockItem;
 import me.crimsondawn45.cdsam.util.ModItem;
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.block.FabricBlockSettings;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.AbstractBlock.Settings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
-import net.minecraft.block.MaterialColor;
 import net.minecraft.block.SlabBlock;
 import net.minecraft.block.WallBlock;
 import net.minecraft.item.Item;
@@ -47,31 +45,31 @@ public class SurvivalAdditions implements ModInitializer
 	public void onInitialize()
 	{
 		//Blocks
-		ModBlocks.scrap_planks = new ModBlock("scrap_planks", new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).build()));
+		ModBlocks.scrap_planks = new ModBlock("scrap_planks", new Block(AbstractBlock.Settings.copy(Blocks.OAK_PLANKS)));
 		ModBlocks.scrap_stairs = new ModBlock("scrap_stairs", new ModStairsBlock(ModBlocks.scrap_planks.getBlock().getDefaultState(), AbstractBlock.Settings.copy(ModBlocks.scrap_planks.getBlock())));
 		ModBlocks.scrap_slab = new ModBlock("scrap_slab", new SlabBlock(Settings.copy(ModBlocks.scrap_planks.getBlock())));
 
-		ModBlocks.mud_bricks = new ModBlock("mud_bricks", new Block(FabricBlockSettings.copy(Blocks.TERRACOTTA).materialColor(MaterialColor.DIRT).build()));
+		ModBlocks.mud_bricks = new ModBlock("mud_bricks", new Block(AbstractBlock.Settings.copy(Blocks.TERRACOTTA)));
 		ModBlocks.mud_brick_stairs = new ModBlock("mud_brick_stairs", new ModStairsBlock(ModBlocks.mud_bricks.getBlock().getDefaultState(), AbstractBlock.Settings.copy(ModBlocks.mud_bricks.getBlock())));
 		ModBlocks.mud_brick_slab = new ModBlock("mud_brick_slab", new SlabBlock(Settings.copy(ModBlocks.mud_bricks.getBlock())));
 		ModBlocks.mud_brick_wall = new ModBlock("mud_brick_wall", new WallBlock(Settings.copy(ModBlocks.mud_bricks.getBlock())));
 
-		ModBlocks.sandstone_bricks = new ModBlock("sandstone_bricks", new Block(FabricBlockSettings.copy(Blocks.SANDSTONE).build()));
+		ModBlocks.sandstone_bricks = new ModBlock("sandstone_bricks", new Block(AbstractBlock.Settings.copy(Blocks.SANDSTONE)));
 		ModBlocks.sandstone_brick_stairs = new ModBlock("sandstone_brick_stairs", new ModStairsBlock(ModBlocks.sandstone_bricks.getBlock().getDefaultState(), AbstractBlock.Settings.copy(ModBlocks.sandstone_bricks.getBlock())));
 		ModBlocks.sandstone_brick_slab = new ModBlock("sandstone_brick_slab", new SlabBlock(Settings.copy(ModBlocks.sandstone_bricks.getBlock())));
 		ModBlocks.sandstone_brick_wall = new ModBlock("sandstone_brick_wall", new WallBlock(Settings.copy(ModBlocks.sandstone_bricks.getBlock())));
 		
-		ModBlocks.red_sandstone_bricks = new ModBlock("red_sandstone_bricks", new Block(FabricBlockSettings.copy(Blocks.RED_SANDSTONE).build()));
+		ModBlocks.red_sandstone_bricks = new ModBlock("red_sandstone_bricks", new Block(AbstractBlock.Settings.copy(Blocks.RED_SANDSTONE)));
 		ModBlocks.red_sandstone_brick_stairs = new ModBlock("red_sandstone_brick_stairs", new ModStairsBlock(ModBlocks.red_sandstone_bricks.getBlock().getDefaultState(), AbstractBlock.Settings.copy(ModBlocks.red_sandstone_bricks.getBlock())));
 		ModBlocks.red_sandstone_brick_slab = new ModBlock("red_sandstone_brick_slab", new SlabBlock(Settings.copy(ModBlocks.red_sandstone_bricks.getBlock())));
 		ModBlocks.red_sandstone_brick_wall = new ModBlock("red_sandstone_brick_wall", new WallBlock(Settings.copy(ModBlocks.red_sandstone_bricks.getBlock())));
 
-		ModBlocks.snow_bricks = new ModBlock("snow_bricks", new Block(FabricBlockSettings.copy(Blocks.SNOW_BLOCK).breakByHand(true).build()));
+		ModBlocks.snow_bricks = new ModBlock("snow_bricks", new Block(AbstractBlock.Settings.copy(Blocks.SNOW_BLOCK)));
 		ModBlocks.snow_brick_stairs = new ModBlock("snow_brick_stairs", new ModStairsBlock(ModBlocks.snow_bricks.getBlock().getDefaultState(), AbstractBlock.Settings.copy(ModBlocks.snow_bricks.getBlock())));
 		ModBlocks.snow_brick_slab= new ModBlock("snow_brick_slab", new SlabBlock(Settings.copy(ModBlocks.snow_bricks.getBlock())));
 		ModBlocks.snow_brick_wall = new ModBlock("snow_brick_wall", new WallBlock(Settings.copy(ModBlocks.snow_bricks.getBlock())));
 
-		ModBlocks.packed_ice_bricks = new ModBlock("packed_ice_bricks", new Block(FabricBlockSettings.copy(Blocks.PACKED_ICE).build()));
+		ModBlocks.packed_ice_bricks = new ModBlock("packed_ice_bricks", new Block(AbstractBlock.Settings.copy(Blocks.PACKED_ICE)));
 		ModBlocks.packed_ice_brick_stairs = new ModBlock("packed_ice_brick_stairs", new ModStairsBlock(ModBlocks.packed_ice_bricks.getBlock().getDefaultState(), AbstractBlock.Settings.copy(ModBlocks.packed_ice_bricks.getBlock())));
 		ModBlocks.packed_ice_brick_slab = new ModBlock("packed_ice_brick_slab", new SlabBlock(Settings.copy(ModBlocks.packed_ice_bricks.getBlock())));
 		ModBlocks.packed_ice_brick_wall = new ModBlock("packed_ice_brick_wall", new WallBlock(Settings.copy(ModBlocks.packed_ice_bricks.getBlock())));
