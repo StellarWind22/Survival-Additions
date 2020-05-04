@@ -2,15 +2,25 @@ package me.crimsondawn45.cdsam.util;
 
 import me.crimsondawn45.cdsam.SurvivalAdditions;
 import net.minecraft.block.Block;
-import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModBlock
 {
 	private String name;
-	private Item item;
 	private Block block;
+	private FlammabilityType flammabilityType;
+	
+	public ModBlock(String name, Block block, FlammabilityType flammabilityType)
+	{
+		this.name = name;
+		this.block = block;
+		this.flammabilityType = flammabilityType;
+		
+		Registry.register(Registry.BLOCK, new Identifier(SurvivalAdditions.MOD_ID, this.name), this.block);
+		
+		FlammabilityManager.flammableBlocks.add(this);
+	}
 	
 	public ModBlock(String name, Block block)
 	{
@@ -30,8 +40,8 @@ public class ModBlock
 		return this.block;
 	}
 	
-	public Item getItem()
+	public FlammabilityType getFlammabilityType()
 	{
-		return this.item;
+		return this.flammabilityType;
 	}
 }

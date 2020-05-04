@@ -2,10 +2,9 @@ package me.crimsondawn45.cdsam.util;
 
 public enum FlammabilityType
 {
-	LOG,
 	PLANKS,
-	PLANT,
+	LOG,
 	CLOTH,
 	THIN_CLOTH,
-	WORKSTATION
+	PLANT
 }

@@ -1,5 +1,8 @@
 package me.crimsondawn45.cdsam;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import me.crimsondawn45.cdsam.list.ModBlocks;
 import me.crimsondawn45.cdsam.list.ModItems;
 import me.crimsondawn45.cdsam.object.ModAxeItem;
@@ -17,6 +20,8 @@ import me.crimsondawn45.cdsam.object.ModShovelItem;
 import me.crimsondawn45.cdsam.object.ModStairsBlock;
 import me.crimsondawn45.cdsam.object.ModSwordItem;
 import me.crimsondawn45.cdsam.object.ModToolMaterials;
+import me.crimsondawn45.cdsam.util.FlammabilityManager;
+import me.crimsondawn45.cdsam.util.FlammabilityType;
 import me.crimsondawn45.cdsam.util.ModBlock;
 import me.crimsondawn45.cdsam.util.ModBlockItem;
 import me.crimsondawn45.cdsam.util.ModItem;
@@ -41,13 +46,17 @@ public class SurvivalAdditions implements ModInitializer
 	public static final ItemGroup CDSAM_ITEMS = FabricItemGroupBuilder.build(new Identifier(MOD_ID, "cdsam_items"),() -> new ItemStack(ModItems.flint_pickaxe.getItem()));
 	public static final ItemGroup CDSAM_BLOCKS = FabricItemGroupBuilder.build(new Identifier(MOD_ID, "cdsam_blocks"),() -> new ItemStack(ModItems.mud_bricks.getItem()));	
 	
+	public static final Logger logger = LogManager.getLogger("Survival Additions");
+	
 	@Override
 	public void onInitialize()
 	{
+		logger.info("Initializing...");
+		
 		//Blocks
-		ModBlocks.scrap_planks = new ModBlock("scrap_planks", new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
-		ModBlocks.scrap_stairs = new ModBlock("scrap_stairs", new ModStairsBlock(ModBlocks.scrap_planks.getBlock().getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.scrap_planks.getBlock())));
-		ModBlocks.scrap_slab = new ModBlock("scrap_slab", new SlabBlock(Settings.copy(ModBlocks.scrap_planks.getBlock())));
+		ModBlocks.scrap_planks = new ModBlock("scrap_planks", new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)), FlammabilityType.PLANKS);
+		ModBlocks.scrap_stairs = new ModBlock("scrap_stairs", new ModStairsBlock(ModBlocks.scrap_planks.getBlock().getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.scrap_planks.getBlock())), FlammabilityType.PLANKS);
+		ModBlocks.scrap_slab = new ModBlock("scrap_slab", new SlabBlock(Settings.copy(ModBlocks.scrap_planks.getBlock())), FlammabilityType.PLANKS);
 
 		ModBlocks.mud_bricks = new ModBlock("mud_bricks", new Block(FabricBlockSettings.copyOf(Blocks.TERRACOTTA)));
 		ModBlocks.mud_brick_stairs = new ModBlock("mud_brick_stairs", new ModStairsBlock(ModBlocks.mud_bricks.getBlock().getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.mud_bricks.getBlock())));
@@ -90,6 +99,8 @@ public class SurvivalAdditions implements ModInitializer
 		ModBlocks.polished_obsidian_brick_slab = new ModBlock("polished_obsidian_brick_slab", new ModObsidianSlab(Settings.copy(Blocks.OBSIDIAN)));
 		ModBlocks.polished_obsidian_brick_wall = new ModBlock("polished_obsidian_brick_wall", new ModObsidianWall(Settings.copy(Blocks.OBSIDIAN)));
 
+		logger.info("Successfully registered blocks...");
+		
 		//Items
 			//Crafting
 		ModItems.knapped_flint = new ModItem("knapped_flint", new Item(new Item.Settings().group(CDSAM_ITEMS)));
@@ -175,5 +186,9 @@ public class SurvivalAdditions implements ModInitializer
 		ModItems.polished_obsidian_brick_stairs = new ModBlockItem(ModBlocks.polished_obsidian_brick_stairs);
 		ModItems.polished_obsidian_brick_slab = new ModBlockItem(ModBlocks.polished_obsidian_brick_slab);
 		ModItems.polished_obsidian_brick_wall = new ModBlockItem(ModBlocks.polished_obsidian_brick_wall);
+		
+		logger.info("Successfully registered items...");
+		
+		FlammabilityManager.init();
 	}
 }
