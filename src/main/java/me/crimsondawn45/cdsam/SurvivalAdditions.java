@@ -25,6 +25,7 @@ import me.crimsondawn45.cdsam.util.FlammabilityType;
 import me.crimsondawn45.cdsam.util.ModBlock;
 import me.crimsondawn45.cdsam.util.ModBlockItem;
 import me.crimsondawn45.cdsam.util.ModItem;
+import me.crimsondawn45.fabricshieldlib.object.FabricShield;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -37,6 +38,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.MushroomStewItem;
+import net.minecraft.tag.ItemTags;
 import net.minecraft.util.Identifier;
 
 public class SurvivalAdditions implements ModInitializer
@@ -135,6 +137,8 @@ public class SurvivalAdditions implements ModInitializer
 		ModItems.sandstone_pickaxe = new ModItem("sandstone_pickaxe", new ModPickaxeItem(ModToolMaterials.sandstone, new Item.Settings().group(CDSAM_ITEMS)));
 		ModItems.sandstone_axe = new ModItem("sandstone_axe", new ModAxeItem(ModToolMaterials.sandstone, new Item.Settings().group(CDSAM_ITEMS)));
 		ModItems.sandstone_hoe = new ModItem("sandstone_hoe", new ModHoeItem(ModToolMaterials.sandstone, new Item.Settings().group(CDSAM_ITEMS)));
+		
+		ModItems.wooden_shield = new ModItem("wooden_shield", new FabricShield(new Item.Settings().group(CDSAM_ITEMS), 100, 168, ItemTags.PLANKS));
 			//Food
 		ModItems.cactus_stew = new ModItem("cactus_stew", new MushroomStewItem(new Item.Settings().group(CDSAM_ITEMS).food(ModFoods.CACTUS_STEW)));
 		ModItems.nether_wart_stew = new ModItem("nether_wart_stew", new MushroomStewItem(new Item.Settings().group(CDSAM_ITEMS).food(ModFoods.NETHER_WART_STEW)));
