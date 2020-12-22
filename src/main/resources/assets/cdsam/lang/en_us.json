@@ -54,6 +54,14 @@
     "block.cdsam.polished_diorite_button":"Polished Diorite Button",
     "block.cdsam.polished_diorite_pressure_plate":"Polished Diorite Pressure Plate",
 
+    "block.cdsam.polished_andesite_bricks":"Polished Andesite Bricks",
+    "block.cdsam.polished_andesite_brick_slab":"Polished Andesite Brick Slab",
+    "block.cdsam.polished_andesite_brick_stairs":"Polished Andesite Brick Stairs",
+    "block.cdsam.polished_andesite_brick_wall":"Polished Andesite Brick Wall",
+
+    "block.cdsam.polished_andesite_button":"Polished Andesite Button",
+    "block.cdsam.polished_andesite_pressure_plate":"Polished Andesite Pressure Plate",
+
     "block.cdsam.obsidian_slab":"Obsidian Slab",
     "block.cdsam.obsidian_stairs":"Obsidian Stairs",
     "block.cdsam.obsidian_wall":"Obsidian Wall",

@@ -5,10 +5,10 @@ import time
 from glob import glob as glob
 
 # Config
-input_color = 'polished_obsidian_brick'
-output_colors = ['polished_granite_brick']
+input_color = 'polished_obsidian'
+output_colors = ['polished_granite']
 time_mult = 0.2     #Does not affect file deletion warning delay.
-keep_old = True
+keep_old = False
 ext = 'json'
 
 # DO NOT EDIT THESE -------------------------------------------------------------------------------

@@ -1,0 +1,32 @@
+{
+  "parent": "cdsam:recipes/root",
+  "rewards": {
+    "recipes": [
+      "cdsam:polished_diorite_brick_stairs_from_polished_diorite_bricks_stonecutting"
+    ]
+  },
+  "criteria": {
+    "has_diorite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:polished_diorite"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "cdsam:polished_diorite_brick_stairs_from_polished_diorite_bricks_stonecutting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_diorite",
+      "has_the_recipe"
+    ]
+  ]
+}
