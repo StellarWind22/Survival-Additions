@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "cdsam:polished_andesite_bricks"
+    }
+  },
+  "result": {
+    "item": "cdsam:polished_andesite_brick_wall",
+    "count": 6
+  }
+}

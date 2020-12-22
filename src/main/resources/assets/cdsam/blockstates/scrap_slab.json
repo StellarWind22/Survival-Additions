@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "cdsam:block/scrap_slab"
+    },
+    "type=double": {
+      "model": "cdsam:block/scrap_planks"
+    },
+    "type=top": {
+      "model": "cdsam:block/scrap_slab_top"
+    }
+  }
+}

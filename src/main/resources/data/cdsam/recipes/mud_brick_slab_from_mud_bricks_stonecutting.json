@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "cdsam:mud_bricks"
+  },
+  "result": "cdsam:mud_brick_slab",
+  "count": 2
+}

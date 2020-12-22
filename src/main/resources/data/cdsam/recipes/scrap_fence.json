@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S#S",
+    "S#S"
+  ],
+  "key": {
+    "S": {
+      "item": "cdsam:scrap_planks"
+    },
+    "#":{
+      "item":"minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "cdsam:scrap_fence",
+    "count": 3
+  }
+}

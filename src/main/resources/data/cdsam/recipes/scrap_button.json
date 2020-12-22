@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cdsam:scrap_planks"
+    }
+  ],
+  "result": {
+    "item": "cdsam:scrap_button"
+  }
+}

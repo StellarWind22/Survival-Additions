@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "cdsam:block/polished_obsidian_bricks"
+  }
+}

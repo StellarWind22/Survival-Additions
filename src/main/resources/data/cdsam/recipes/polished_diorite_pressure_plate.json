@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:polished_diorite"
+    }
+  },
+  "result": {
+    "item": "cdsam:polished_diorite_pressure_plate"
+  }
+}

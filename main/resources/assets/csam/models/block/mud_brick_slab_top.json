@@ -1,8 +1,0 @@
-{
-    "parent": "block/upper_slab",
-    "textures": {
-        "bottom": "csam:blocks/mud_brick",
-        "top": "csam:blocks/mud_brick",
-        "side": "csam:blocks/mud_brick"
-    }
-}

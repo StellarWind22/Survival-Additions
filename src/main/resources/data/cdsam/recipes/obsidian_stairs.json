@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S  ",
+    "SS ",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "cdsam:obsidian_stairs",
+    "count": 4
+  }
+}

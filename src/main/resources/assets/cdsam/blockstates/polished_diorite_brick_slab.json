@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "cdsam:block/polished_diorite_brick_slab"
+    },
+    "type=double": {
+      "model": "cdsam:block/polished_diorite_bricks"
+    },
+    "type=top": {
+      "model": "cdsam:block/polished_diorite_brick_slab_top"
+    }
+  }
+}

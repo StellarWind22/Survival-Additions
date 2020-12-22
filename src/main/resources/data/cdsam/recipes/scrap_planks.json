@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "tag": "fabric:sticks"
+    }
+  },
+  "result": {
+    "item": "cdsam:scrap_planks",
+    "count": 2
+  }
+}
