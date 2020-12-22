@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:polished_granite"
+    }
+  },
+  "result": {
+    "item": "cdsam:polished_granite_pressure_plate"
+  }
+}

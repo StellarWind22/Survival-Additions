@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "cdsam:polished_andesite_bricks"
+  },
+  "result": "cdsam:polished_andesite_brick_wall",
+  "count": 1
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "cdsam:block/polished_obsidian_slab"
+    },
+    "type=double": {
+      "model": "cdsam:block/polished_obsidian"
+    },
+    "type=top": {
+      "model": "cdsam:block/polished_obsidian_slab_top"
+    }
+  }
+}

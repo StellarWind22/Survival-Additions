@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "cdsam:block/polished_granite_bricks",
+    "top": "cdsam:block/polished_granite_bricks",
+    "side": "cdsam:block/polished_granite_bricks"
+  }
+}

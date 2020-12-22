@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "cdsam:block/polished_granite_brick_slab"
+    },
+    "type=double": {
+      "model": "cdsam:block/polished_granite_bricks"
+    },
+    "type=top": {
+      "model": "cdsam:block/polished_granite_brick_slab_top"
+    }
+  }
+}

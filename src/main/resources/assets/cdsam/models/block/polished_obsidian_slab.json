@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "cdsam:block/polished_obsidian",
+    "top": "cdsam:block/polished_obsidian",
+    "side": "cdsam:block/polished_obsidian"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S  ",
+    "SS ",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "cdsam:smooth_sandstone_bricks"
+    }
+  },
+  "result": {
+    "item": "cdsam:smooth_sandstone_brick_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "cdwd",
+  "version": "${version}",
+  "name": "Survival Additions",
+  "description": "Adds some random Misc. dimensions for you to play around with.",
+  "authors": [
+    "CrimsonDawn45"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/survival-additions",
+    "sources": "https://github.com/CrimsonDawn45/Survival-Additions"
+  },
+  "license": "MIT",
+  "icon": "assets/cdsam/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.crimsondawn45.cdsam.Main"
+    ],
+    "client":[
+      "me.crimsondawn45.cdsam.MainClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

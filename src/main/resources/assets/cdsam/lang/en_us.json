@@ -1,0 +1,76 @@
+{
+    "itemGroup.cdsam.items":"Survival Additions: Items",
+    "itemGroup.cdsam.blocks":"Survival Additions: Blocks",
+
+    "item.cdsam.cactus_stew":"Cactus Stew",
+    "item.cdsam.carrot_soup":"Carrot Soup",
+    "item.cdsam.chorus_fruit_stew":"Chorus Fruit Stew",
+    "item.cdsam.nether_wart_stew":"Nether Wart Stew",
+    "item.cdsam.potato_soup":"Potato Soup",
+
+    "block.cdsam.scrap_planks":"Scrap Planks",
+    "block.cdsam.scrap_slab":"Scrap Slab",
+    "block.cdsam.scrap_stairs":"Scrap Stairs",
+    "block.cdsam.scrap_fence":"Scrap Fence",
+    "block.cdsam.scrap_fence_gate":"Scrap Fence Gate",
+    
+    "block.cdsam.scrap_button":"Scrap Button",
+    "block.cdsam.scrap_pressure_plate":"Scrap Pressure Plate",
+
+    "block.cdsam.mud_bricks":"Mud Bricks",
+    "block.cdsam.mud_brick_stairs":"Mud Brick Stairs",
+    "block.cdsam.mud_brick_slab":"Mud Brick Slab",
+    "block.cdsam.mud_brick_wall":"Mud Brick Wall",
+
+    "block.cdsam.smooth_sandstone_bricks":"Smooth Sandstone Bricks",
+    "block.cdsam.smooth_sandstone_brick_slab":"Smooth Sandstone Brick Slab",
+    "block.cdsam.smooth_sandstone_brick_stairs":"Smooth Sandstone Brick Stairs",
+    "block.cdsam.smooth_sandstone_brick_wall":"Smooth Sandstone Brick Wall",
+
+    "block.cdsam.smooth_sandstone_button":"Smooth Sandstone Button",
+    "block.cdsam.smooth_sandstone_pressure_plate":"Smooth Sandstone Pressure Plate",
+
+    "block.cdsam.smooth_red_sandstone_bricks":"Smooth Red Sandstone Bricks",
+    "block.cdsam.smooth_red_sandstone_brick_slab":"Smooth Red Sandstone Brick Slab",
+    "block.cdsam.smooth_red_sandstone_brick_stairs":"Smooth Red Sandstone Brick Stairs",
+    "block.cdsam.smooth_red_sandstone_brick_wall":"Smooth Red Sandstone Brick Wall",
+
+    "block.cdsam.smooth_red_sandstone_button":"Smooth Red Sandstone Button",
+    "block.cdsam.smooth_red_sandstone_pressure_plate":"Smooth Red Sandstone Pressure Plate",
+
+    "block.cdsam.polished_granite_bricks":"Polished Granite Bricks",
+    "block.cdsam.polished_granite_brick_slab":"Polished Granite Brick Slab",
+    "block.cdsam.polished_granite_brick_stairs":"Polished Granite Brick Stairs",
+    "block.cdsam.polished_granite_brick_wall":"Polished Granite Brick Wall",
+
+    "block.cdsam.polished_granite_button":"Polished Granite Button",
+    "block.cdsam.polished_granite_pressure_plate":"Polished Granite Pressure Plate",
+
+    "block.cdsam.polished_diorite_bricks":"Polished Diorite Bricks",
+    "block.cdsam.polished_diorite_brick_slab":"Polished Diorite Brick Slab",
+    "block.cdsam.polished_diorite_brick_stairs":"Polished Diorite Brick Stairs",
+    "block.cdsam.polished_diorite_brick_wall":"Polished Diorite Brick Wall",
+
+    "block.cdsam.polished_diorite_button":"Polished Diorite Button",
+    "block.cdsam.polished_diorite_pressure_plate":"Polished Diorite Pressure Plate",
+
+    "block.cdsam.obsidian_slab":"Obsidian Slab",
+    "block.cdsam.obsidian_stairs":"Obsidian Stairs",
+    "block.cdsam.obsidian_wall":"Obsidian Wall",
+
+    "block.cdsam.polished_obsidian":"Polished Obsidian",
+    "block.cdsam.polished_obsidian_slab":"Polished Obsidian Slab",
+    "block.cdsam.polished_obsidian_stairs":"Polished Obsidian Stairs",
+    "block.cdsam.polished_obsidian_wall":"Polished Obsidian Wall",
+   
+    "block.cdsam.polished_obsidian_bricks":"Polished Obsidian Bricks",
+    "block.cdsam.polished_obsidian_brick_slab":"Polished Obsidian Brick Slab",
+    "block.cdsam.polished_obsidian_brick_stairs":"Polished Obsidian Brick Stairs",
+    "block.cdsam.polished_obsidian_brick_wall":"Polished Obsidian Brick Wall",
+
+    "block.cdsam.obsidian_glass":"Obsidian Glass",
+    "block.cdsam.obsidian_glass_pane":"Obsidian Glass Pane",
+
+    "block.cdsam.polished_obsidian_button":"Polished Obsidian Button",
+    "block.cdsam.polished_obsidian_pressure_plate":"Polished Obsidian Pressure Plate"
+}

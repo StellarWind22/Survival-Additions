@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:potato"
+    },{
+      "item": "minecraft:potato"
+    },{
+      "item": "minecraft:potato"
+    },{
+      "item": "minecraft:potato"
+    },{
+      "item": "minecraft:potato"
+    },{
+      "item": "minecraft:potato"
+    },{
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "cdsam:potato_soup"
+  }
+}

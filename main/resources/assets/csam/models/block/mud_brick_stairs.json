@@ -1,8 +1,0 @@
-{
-    "parent": "block/stairs",
-    "textures": {
-        "bottom": "csam:blocks/mud_brick",
-        "top": "csam:blocks/mud_brick",
-        "side": "csam:blocks/mud_brick"
-    }
-}

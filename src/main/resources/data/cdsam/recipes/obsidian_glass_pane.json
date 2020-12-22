@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "cdsam:obsidian_glass"
+    }
+  },
+  "result": {
+    "item": "cdsam:obsidian_glass_pane",
+    "count": 16
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cdsam:item/chorus_fruit_stew"
+  }
+}
