@@ -33,6 +33,24 @@ public class MItems {
 	public static MItem flint_pickaxe;
 	public static MItem flint_shovel;
 	public static MItem flint_hoe;
+			//Sandstone
+	public static MItem sandstone_sword;
+	public static MItem sandstone_axe;
+	public static MItem sandstone_pickaxe;
+	public static MItem sandstone_shovel;
+	public static MItem sandstone_hoe;
+			//Netherrack
+	public static MItem netherrack_sword;
+	public static MItem netherrack_axe;
+	public static MItem netherrack_pickaxe;
+	public static MItem netherrack_shovel;
+	public static MItem netherrack_hoe;
+			//End Stone
+	public static MItem end_stone_sword;
+	public static MItem end_stone_axe;
+	public static MItem end_stone_pickaxe;
+	public static MItem end_stone_shovel;
+	public static MItem end_stone_hoe;
 	
 	public static void Init() {
 		cactus_stew = new MItem("cactus_stew", new MushroomStewItem(m_item_s.food(MFoods.CACTUS_STEW)));
@@ -51,5 +69,17 @@ public class MItems {
 		flint_pickaxe = new MItem("flint_pickaxe", new MAxeItem(MToolMaterials.flint, m_item_s));
 		flint_shovel = new MItem("flint_shovel", new MShovelItem(MToolMaterials.flint, m_item_s));
 		flint_hoe = new MItem("flint_hoe", new MHoeItem(MToolMaterials.flint, m_item_s));
+		
+		sandstone_sword = new MItem("sandstone_sword", new MSwordItem(MToolMaterials.sandstone, m_item_s));
+		sandstone_axe = new MItem("sandstone_axe", new MAxeItem(MToolMaterials.sandstone, m_item_s));
+		sandstone_pickaxe = new MItem("sandstone_pickaxe", new MAxeItem(MToolMaterials.sandstone, m_item_s));
+		sandstone_shovel = new MItem("sandstone_shovel", new MShovelItem(MToolMaterials.sandstone, m_item_s));
+		sandstone_hoe = new MItem("sandstone_hoe", new MHoeItem(MToolMaterials.sandstone, m_item_s));
+		
+		netherrack_sword = new MItem("netherrack_sword", new MSwordItem(MToolMaterials.netherrack, m_item_s));
+		netherrack_axe = new MItem("netherrack_axe", new MAxeItem(MToolMaterials.netherrack, m_item_s));
+		netherrack_pickaxe = new MItem("netherrack_pickaxe", new MAxeItem(MToolMaterials.netherrack, m_item_s));
+		netherrack_shovel = new MItem("netherrack_shovel", new MShovelItem(MToolMaterials.netherrack, m_item_s));
+		netherrack_hoe = new MItem("netherrack_hoe", new MHoeItem(MToolMaterials.netherrack, m_item_s));
 	}
 }

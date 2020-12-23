@@ -19,6 +19,24 @@
     "item.cdsam.bone_pickaxe":"Bone Pickaxe",
     "item.cdsam.bone_hoe":"Bone Hoe",
 
+    "item.cdsam.sandstone_sword":"Sandstone Sword",
+    "item.cdsam.sandstone_axe":"Sandstone Axe",
+    "item.cdsam.sandstone_pickaxe":"Sandstone Pickaxe",
+    "item.cdsam.sandstone_shovel":"Sandstone Shovel",
+    "item.cdsam.sandstone_hoe":"Sandstone Hoe",
+
+    "item.cdsam.netherrack_sword":"Netherrack Sword",
+    "item.cdsam.netherrack_axe":"Netherrack Axe",
+    "item.cdsam.netherrack_pickaxe":"Netherrack Pickaxe",
+    "item.cdsam.netherrack_shovel":"Netherrack Shovel",
+    "item.cdsam.netherrack_hoe":"Netherrack Hoe",
+
+    "item.cdsam.end_stone_sword":"End Stone Sword",
+    "item.cdsam.end_stone_axe":"End Stone Axe",
+    "item.cdsam.end_stone_pickaxe":"End Stone Pickaxe",
+    "item.cdsam.end_stone_shovel":"End Stone Shovel",
+    "item.cdsam.end_stone_hoe":"End Stone Hoe",
+
     "block.cdsam.scrap_planks":"Scrap Planks",
     "block.cdsam.scrap_slab":"Scrap Slab",
     "block.cdsam.scrap_stairs":"Scrap Stairs",
