@@ -8,6 +8,17 @@
     "item.cdsam.nether_wart_stew":"Nether Wart Stew",
     "item.cdsam.potato_soup":"Potato Soup",
 
+    "item.cdsam.flint_sword":"Flint Knife",
+    "item.cdsam.flint_axe":"Flint Axe",
+    "item.cdsam.flint_pickaxe":"Flint Pickaxe",
+    "item.cdsam.flint_shovel":"Flint Shovel",
+    "item.cdsam.flint_hoe":"Flint Hoe",
+
+    "item.cdsam.bone_sword":"Bone Knife",
+    "item.cdsam.bone_axe":"Bone Axe",
+    "item.cdsam.bone_pickaxe":"Bone Pickaxe",
+    "item.cdsam.bone_hoe":"Bone Hoe",
+
     "block.cdsam.scrap_planks":"Scrap Planks",
     "block.cdsam.scrap_slab":"Scrap Slab",
     "block.cdsam.scrap_stairs":"Scrap Stairs",

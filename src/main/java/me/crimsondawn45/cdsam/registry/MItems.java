@@ -22,14 +22,17 @@ public class MItems {
 	public static MItem nether_wart_stew;
 	public static MItem potato_soup;
 		//Tools
+			//Bone
+	public static MItem bone_sword;
+	public static MItem bone_axe;
+	public static MItem bone_pickaxe;
+	public static MItem bone_hoe;
 			//Flint
 	public static MItem flint_sword;
 	public static MItem flint_axe;
 	public static MItem flint_pickaxe;
 	public static MItem flint_shovel;
 	public static MItem flint_hoe;
-			//Bone
-	
 	
 	public static void Init() {
 		cactus_stew = new MItem("cactus_stew", new MushroomStewItem(m_item_s.food(MFoods.CACTUS_STEW)));
@@ -38,10 +41,15 @@ public class MItems {
 		nether_wart_stew = new MItem("nether_wart_stew", new MushroomStewItem(m_item_s.food(MFoods.NETHER_WART_STEW)));
 		potato_soup = new MItem("potato_soup", new MushroomStewItem(m_item_s.food(MFoods.POTATO_SOUP)));
 		
+		bone_sword = new MItem("bone_sword", new MSwordItem(MToolMaterials.bone, m_item_s));
+		bone_axe = new MItem("bone_axe", new MAxeItem(MToolMaterials.bone, m_item_s));
+		bone_pickaxe = new MItem("bone_pickaxe", new MAxeItem(MToolMaterials.bone, m_item_s));
+		bone_hoe = new MItem("bone_hoe", new MHoeItem(MToolMaterials.bone, m_item_s));
+		
 		flint_sword = new MItem("flint_sword", new MSwordItem(MToolMaterials.flint, m_item_s));
 		flint_axe = new MItem("flint_axe", new MAxeItem(MToolMaterials.flint, m_item_s));
 		flint_pickaxe = new MItem("flint_pickaxe", new MAxeItem(MToolMaterials.flint, m_item_s));
 		flint_shovel = new MItem("flint_shovel", new MShovelItem(MToolMaterials.flint, m_item_s));
-		flint_hoe = new MItem("flint_shovel", new MHoeItem(MToolMaterials.flint, m_item_s));
+		flint_hoe = new MItem("flint_hoe", new MHoeItem(MToolMaterials.flint, m_item_s));
 	}
 }
