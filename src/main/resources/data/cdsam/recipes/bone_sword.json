@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B",
+    "/"
+  ],
+  "key": {
+    "/": {
+      "tag": "fabric:sticks"
+    },
+    "B": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "item": "cdsam:bone_sword"
+  }
+}

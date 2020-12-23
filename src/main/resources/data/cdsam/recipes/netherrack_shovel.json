@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S",
+    "/",
+    "/"
+  ],
+  "key": {
+    "/": {
+      "tag": "fabric:sticks"
+    },
+    "S": {
+      "item": "minecraft:netherrack"
+    }
+  },
+  "result": {
+    "item": "cdsam:netherrack_shovel"
+  }
+}

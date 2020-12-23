@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SB"
+  ],
+  "key": {
+    "B": {
+      "item": "cdsam:flint_pickaxe"
+    },
+    "S":{
+      "tag":"fabric:flint"
+    }
+  },
+  "result": {
+    "item": "cdsam:flint_axe"
+  }
+}

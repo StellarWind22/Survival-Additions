@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SS",
+    "/ ",
+    "/ "
+  ],
+  "key": {
+    "/": {
+      "tag": "fabric:sticks"
+    },
+    "S": {
+      "tag": "fabric:sandstone"
+    }
+  },
+  "result": {
+    "item": "cdsam:sandstone_hoe"
+  }
+}

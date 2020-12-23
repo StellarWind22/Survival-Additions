@@ -21,6 +21,8 @@ public class MItems {
 	public static MItem chorus_fruit_stew;
 	public static MItem nether_wart_stew;
 	public static MItem potato_soup;
+		//Crafting
+	public static MItem knapped_flint;
 		//Tools
 			//Bone
 	public static MItem bone_sword;
@@ -53,12 +55,17 @@ public class MItems {
 	public static MItem end_stone_hoe;
 	
 	public static void Init() {
+		//Food
 		cactus_stew = new MItem("cactus_stew", new MushroomStewItem(m_item_s.food(MFoods.CACTUS_STEW)));
 		carrot_soup = new MItem("carrot_soup", new MushroomStewItem(m_item_s.food(MFoods.CARROT_SOUP)));
 		chorus_fruit_stew = new MItem("chorus_fruit_stew", new MChorusStewItem(m_item_s.food(MFoods.CHORUS_FRUIT_STEW)));
 		nether_wart_stew = new MItem("nether_wart_stew", new MushroomStewItem(m_item_s.food(MFoods.NETHER_WART_STEW)));
 		potato_soup = new MItem("potato_soup", new MushroomStewItem(m_item_s.food(MFoods.POTATO_SOUP)));
 		
+		//Crafting
+		knapped_flint = new MItem("knapped_flint", new Item(m_item_s));
+		
+		//Tools
 		bone_sword = new MItem("bone_sword", new MSwordItem(MToolMaterials.bone, m_item_s));
 		bone_axe = new MItem("bone_axe", new MAxeItem(MToolMaterials.bone, m_item_s));
 		bone_pickaxe = new MItem("bone_pickaxe", new MAxeItem(MToolMaterials.bone, m_item_s));

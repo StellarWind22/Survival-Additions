@@ -17,8 +17,8 @@ public class Main implements ModInitializer {
 	
 	public static final String MOD_ID = "cdsam";
 	
-	public static final ItemGroup ITEM = FabricItemGroupBuilder.build(new Identifier(MOD_ID, "items"), () -> new ItemStack(MItems.carrot_soup.getItem()));
-	public static final ItemGroup BLOCK = FabricItemGroupBuilder.build(new Identifier(MOD_ID, "blocks"), () -> new ItemStack(MBlocks.polished_obsidian_bricks.getBlock()));
+	public static final ItemGroup ITEM = FabricItemGroupBuilder.build(new Identifier(MOD_ID, "items"), () -> new ItemStack(MItems.flint_pickaxe.getItem()));
+	public static final ItemGroup BLOCK = FabricItemGroupBuilder.build(new Identifier(MOD_ID, "blocks"), () -> new ItemStack(MBlocks.mud_bricks.getBlock()));
 	
 	public static final Logger logger = LogManager.getLogger("Survival Additions");
 	

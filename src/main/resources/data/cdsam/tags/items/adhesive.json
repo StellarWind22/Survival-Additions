@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:string",
+      "minecraft:slime_ball",
+      "minecraft:magma_cream"
+    ]
+}
