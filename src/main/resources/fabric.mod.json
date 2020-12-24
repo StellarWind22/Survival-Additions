@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "cdwd",
+  "id": "cdsam",
   "version": "${version}",
   "name": "Survival Additions",
-  "description": "Adds some random Misc. dimensions for you to play around with.",
+  "description": "Adds new tools, food, and building blocks that are designed to feel not too far off from vanilla.",
   "authors": [
     "CrimsonDawn45"
   ],
@@ -25,7 +25,7 @@
   "depends": {
     "fabricloader": ">=0.7.4",
     "fabric": "*",
-    "minecraft": "1.16.x"
+    "minecraft": "1.15.x"
   },
   "suggests": {
     "flamingo": "*"

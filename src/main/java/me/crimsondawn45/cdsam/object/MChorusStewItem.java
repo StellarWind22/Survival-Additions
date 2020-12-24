@@ -33,7 +33,7 @@ public class MChorusStewItem extends Item {
          for(int i = 0; i < 16; ++i)
          {
             double g = user.getX() + (user.getRandom().nextDouble() - 0.5D) * range;
-            double h = MathHelper.clamp(user.getY() + (double)(user.getRandom().nextInt(16) - 8), 0.0D, (double)(world.getDimensionHeight() - 1));
+            double h = MathHelper.clamp(user.getY() + (double)(user.getRandom().nextInt(16) - 8), 0.0D, (double)(world.getHeight() - 1));
             double j = user.getZ() + (user.getRandom().nextDouble() - 0.5D) * range;
             
             if (user.hasVehicle())
