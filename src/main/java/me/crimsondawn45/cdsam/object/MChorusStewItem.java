@@ -26,15 +26,15 @@ public class MChorusStewItem extends Item {
       
       if (!world.isClient)
       {
-         double d = user.getX();
-         double e = user.getY();
-         double f = user.getZ();
+         double d = user.getPos().x;
+         double e = user.getPos().y;
+         double f = user.getPos().z;
 
          for(int i = 0; i < 16; ++i)
          {
-            double g = user.getX() + (user.getRandom().nextDouble() - 0.5D) * range;
-            double h = MathHelper.clamp(user.getY() + (double)(user.getRandom().nextInt(16) - 8), 0.0D, (double)(world.getHeight() - 1));
-            double j = user.getZ() + (user.getRandom().nextDouble() - 0.5D) * range;
+            double g = user.getPos().x + (user.getRandom().nextDouble() - 0.5D) * range;
+            double h = MathHelper.clamp(user.getPos().y + (double)(user.getRandom().nextInt(16) - 8), 0.0D, (double)(world.getHeight() - 1));
+            double j = user.getPos().z + (user.getRandom().nextDouble() - 0.5D) * range;
             
             if (user.hasVehicle())
             {
