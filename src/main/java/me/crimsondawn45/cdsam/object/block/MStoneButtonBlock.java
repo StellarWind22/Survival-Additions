@@ -1,4 +1,4 @@
-package me.crimsondawn45.cdsam.object;
+package me.crimsondawn45.cdsam.object.block;
 
 import net.minecraft.block.StoneButtonBlock;
 

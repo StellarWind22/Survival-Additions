@@ -1,4 +1,4 @@
-package me.crimsondawn45.cdsam.object;
+package me.crimsondawn45.cdsam.object.item;
 
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolMaterial;

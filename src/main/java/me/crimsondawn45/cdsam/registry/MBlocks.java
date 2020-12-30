@@ -1,10 +1,10 @@
 package me.crimsondawn45.cdsam.registry;
 
 import me.crimsondawn45.cdsam.Main;
-import me.crimsondawn45.cdsam.object.MPressurePlateBlock;
-import me.crimsondawn45.cdsam.object.MStairsBlock;
-import me.crimsondawn45.cdsam.object.MStoneButtonBlock;
-import me.crimsondawn45.cdsam.object.MWoodenButtonBlock;
+import me.crimsondawn45.cdsam.object.block.MPressurePlateBlock;
+import me.crimsondawn45.cdsam.object.block.MStairsBlock;
+import me.crimsondawn45.cdsam.object.block.MStoneButtonBlock;
+import me.crimsondawn45.cdsam.object.block.MWoodenButtonBlock;
 import me.crimsondawn45.cdsam.util.MBlock;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;

@@ -1,11 +1,11 @@
 package me.crimsondawn45.cdsam.registry;
 
 import me.crimsondawn45.cdsam.Main;
-import me.crimsondawn45.cdsam.object.MAxeItem;
-import me.crimsondawn45.cdsam.object.MChorusStewItem;
-import me.crimsondawn45.cdsam.object.MHoeItem;
-import me.crimsondawn45.cdsam.object.MShovelItem;
-import me.crimsondawn45.cdsam.object.MSwordItem;
+import me.crimsondawn45.cdsam.object.item.MAxeItem;
+import me.crimsondawn45.cdsam.object.item.MChorusStewItem;
+import me.crimsondawn45.cdsam.object.item.MHoeItem;
+import me.crimsondawn45.cdsam.object.item.MShovelItem;
+import me.crimsondawn45.cdsam.object.item.MSwordItem;
 import me.crimsondawn45.cdsam.util.MItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.MushroomStewItem;
