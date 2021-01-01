@@ -56,12 +56,6 @@ public class MToolMaterials implements ToolMaterial {
 	}
 
 	@Override
-	public float getMiningSpeedMultiplier()
-	{
-		return this.speedMultiplier;
-	}
-
-	@Override
 	public int getMiningLevel()
 	{
 		return this.miningLevel;
@@ -71,5 +65,10 @@ public class MToolMaterials implements ToolMaterial {
 	public Ingredient getRepairIngredient()
 	{
 		return Ingredient.ofItems(this.repairMaterial);
+	}
+
+	@Override
+	public float getMiningSpeed() {
+		return this.speedMultiplier;
 	}
 }
