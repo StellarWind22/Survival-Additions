@@ -42,7 +42,7 @@ public class MBlocks {
 		//Andesite
 	public static FabricBlockSettings m_andesite_block_s = FabricBlockSettings.copyOf(Blocks.ANDESITE).breakByTool(FabricToolTags.PICKAXES);
 		//Obsidian
-	private static FabricBlockSettings m_obsidian_block_s = FabricBlockSettings.copyOf(Blocks.OBSIDIAN).breakByTool(FabricToolTags.PICKAXES);
+	private static FabricBlockSettings m_obsidian_block_s = FabricBlockSettings.copyOf(Blocks.OBSIDIAN).breakByTool(FabricToolTags.PICKAXES, 3);
 	private static FabricBlockSettings m_obsidian_block_s_glass = FabricBlockSettings.copyOf(m_obsidian_block_s).sounds(BlockSoundGroup.GLASS).nonOpaque();
 	
 	//Blocks
