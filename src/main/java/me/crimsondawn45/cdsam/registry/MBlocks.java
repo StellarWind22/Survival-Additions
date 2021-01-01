@@ -7,7 +7,7 @@ import me.crimsondawn45.cdsam.object.block.MStoneButtonBlock;
 import me.crimsondawn45.cdsam.object.block.MWoodenButtonBlock;
 import me.crimsondawn45.cdsam.util.MBlock;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.fabricmc.fabric.api.tools.FabricToolTags;
+import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.FenceBlock;
@@ -43,7 +43,7 @@ public class MBlocks {
 	public static FabricBlockSettings m_andesite_block_s = FabricBlockSettings.copyOf(Blocks.ANDESITE).breakByTool(FabricToolTags.PICKAXES);
 		//Obsidian
 	private static FabricBlockSettings m_obsidian_block_s = FabricBlockSettings.copyOf(Blocks.OBSIDIAN).breakByTool(FabricToolTags.PICKAXES, 3);
-	private static FabricBlockSettings m_obsidian_block_s_glass = FabricBlockSettings.copyOf(m_obsidian_block_s).sounds(BlockSoundGroup.GLASS);
+	private static FabricBlockSettings m_obsidian_block_s_glass = FabricBlockSettings.copyOf(m_obsidian_block_s).sounds(BlockSoundGroup.GLASS).nonOpaque();
 	
 	//Blocks
 		//Scrap Planks
