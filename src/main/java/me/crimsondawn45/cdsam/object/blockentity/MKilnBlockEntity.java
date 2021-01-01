@@ -7,11 +7,10 @@ import net.minecraft.recipe.AbstractCookingRecipe;
 import net.minecraft.recipe.RecipeType;
 import net.minecraft.screen.ScreenHandler;
 import net.minecraft.text.Text;
-import net.minecraft.text.TranslatableText;
 
 public class MKilnBlockEntity extends AbstractFurnaceBlockEntity {
 	
-	private static final TranslatableText NAME = new TranslatableText("container.cdsam.kiln");
+	//private static final TranslatableText NAME = new TranslatableText("container.cdsam.kiln");
 
 	public MKilnBlockEntity(BlockEntityType<?> blockEntityType, RecipeType<? extends AbstractCookingRecipe> recipeType) {
 		super(blockEntityType, recipeType);
