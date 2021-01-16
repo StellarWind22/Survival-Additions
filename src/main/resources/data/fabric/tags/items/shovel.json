@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+      "cdsam:flint_shovel",
+      "cdsam:sandstone_shovel",
+      "cdsam:netherrack_shovel"
+    ]
+}

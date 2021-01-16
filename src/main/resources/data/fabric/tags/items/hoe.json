@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+      "cdsam:bone_hoe",
+      "cdsam:flint_hoe",
+      "cdsam:sandstone_hoe",
+      "cdsam:netherrack_hoe"
+    ]
+}

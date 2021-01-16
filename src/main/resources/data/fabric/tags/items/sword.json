@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+      "cdsam:bone_sword",
+      "cdsam:flint_sword",
+      "cdsam:sandstone_sword",
+      "cdsam:netherrack_sword"
+    ]
+}

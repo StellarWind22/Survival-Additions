@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+      "cdsam:bone_pickaxe",
+      "cdsam:flint_pickaxe",
+      "cdsam:sandstone_pickaxe",
+      "cdsam:netherrack_pickaxe"
+    ]
+}
