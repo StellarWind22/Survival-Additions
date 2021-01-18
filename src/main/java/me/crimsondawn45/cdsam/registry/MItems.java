@@ -4,11 +4,12 @@ import me.crimsondawn45.cdsam.Main;
 import me.crimsondawn45.cdsam.object.item.MAxeItem;
 import me.crimsondawn45.cdsam.object.item.MChorusStewItem;
 import me.crimsondawn45.cdsam.object.item.MHoeItem;
+import me.crimsondawn45.cdsam.object.item.MPickaxeItem;
 import me.crimsondawn45.cdsam.object.item.MShovelItem;
+import me.crimsondawn45.cdsam.object.item.MStewItem;
 import me.crimsondawn45.cdsam.object.item.MSwordItem;
 import me.crimsondawn45.cdsam.util.MItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.MushroomStewItem;
 
 public class MItems {
 	
@@ -54,11 +55,11 @@ public class MItems {
 	
 	public static void Init() {
 		//Food
-		cactus_stew = new MItem("cactus_stew", new MushroomStewItem(new Item.Settings().group(Main.ITEM).food(MFoods.CACTUS_STEW)));
-		carrot_soup = new MItem("carrot_soup", new MushroomStewItem(new Item.Settings().group(Main.ITEM).food(MFoods.CARROT_SOUP)));
+		cactus_stew = new MItem("cactus_stew", new MStewItem(new Item.Settings().group(Main.ITEM).food(MFoods.CACTUS_STEW)));
+		carrot_soup = new MItem("carrot_soup", new MStewItem(new Item.Settings().group(Main.ITEM).food(MFoods.CARROT_SOUP)));
 		chorus_fruit_stew = new MItem("chorus_fruit_stew", new MChorusStewItem(new Item.Settings().group(Main.ITEM).food(MFoods.CHORUS_FRUIT_STEW)));
-		nether_wart_stew = new MItem("nether_wart_stew", new MushroomStewItem(new Item.Settings().group(Main.ITEM).food(MFoods.NETHER_WART_STEW)));
-		potato_soup = new MItem("potato_soup", new MushroomStewItem(new Item.Settings().group(Main.ITEM).food(MFoods.POTATO_SOUP)));
+		nether_wart_stew = new MItem("nether_wart_stew", new MStewItem(new Item.Settings().group(Main.ITEM).food(MFoods.NETHER_WART_STEW)));
+		potato_soup = new MItem("potato_soup", new MStewItem(new Item.Settings().group(Main.ITEM).food(MFoods.POTATO_SOUP)));
 		
 		//Crafting
 		knapped_flint = new MItem("knapped_flint", new Item(new Item.Settings().group(Main.ITEM)));
@@ -66,24 +67,24 @@ public class MItems {
 		//Tools
 		bone_sword = new MItem("bone_sword", new MSwordItem(MToolMaterials.bone, new Item.Settings().group(Main.ITEM)));
 		bone_axe = new MItem("bone_axe", new MAxeItem(MToolMaterials.bone, new Item.Settings().group(Main.ITEM)));
-		bone_pickaxe = new MItem("bone_pickaxe", new MAxeItem(MToolMaterials.bone, new Item.Settings().group(Main.ITEM)));
+		bone_pickaxe = new MItem("bone_pickaxe", new MPickaxeItem(MToolMaterials.bone, new Item.Settings().group(Main.ITEM)));
 		bone_hoe = new MItem("bone_hoe", new MHoeItem(MToolMaterials.bone, new Item.Settings().group(Main.ITEM)));
 		
 		flint_sword = new MItem("flint_sword", new MSwordItem(MToolMaterials.flint, new Item.Settings().group(Main.ITEM)));
 		flint_axe = new MItem("flint_axe", new MAxeItem(MToolMaterials.flint, new Item.Settings().group(Main.ITEM)));
-		flint_pickaxe = new MItem("flint_pickaxe", new MAxeItem(MToolMaterials.flint, new Item.Settings().group(Main.ITEM)));
+		flint_pickaxe = new MItem("flint_pickaxe", new MPickaxeItem(MToolMaterials.flint, new Item.Settings().group(Main.ITEM)));
 		flint_shovel = new MItem("flint_shovel", new MShovelItem(MToolMaterials.flint, new Item.Settings().group(Main.ITEM)));
 		flint_hoe = new MItem("flint_hoe", new MHoeItem(MToolMaterials.flint, new Item.Settings().group(Main.ITEM)));
 		
 		sandstone_sword = new MItem("sandstone_sword", new MSwordItem(MToolMaterials.sandstone, new Item.Settings().group(Main.ITEM)));
 		sandstone_axe = new MItem("sandstone_axe", new MAxeItem(MToolMaterials.sandstone, new Item.Settings().group(Main.ITEM)));
-		sandstone_pickaxe = new MItem("sandstone_pickaxe", new MAxeItem(MToolMaterials.sandstone, new Item.Settings().group(Main.ITEM)));
+		sandstone_pickaxe = new MItem("sandstone_pickaxe", new MPickaxeItem(MToolMaterials.sandstone, new Item.Settings().group(Main.ITEM)));
 		sandstone_shovel = new MItem("sandstone_shovel", new MShovelItem(MToolMaterials.sandstone, new Item.Settings().group(Main.ITEM)));
 		sandstone_hoe = new MItem("sandstone_hoe", new MHoeItem(MToolMaterials.sandstone, new Item.Settings().group(Main.ITEM)));
 		
 		netherrack_sword = new MItem("netherrack_sword", new MSwordItem(MToolMaterials.netherrack, new Item.Settings().group(Main.ITEM)));
 		netherrack_axe = new MItem("netherrack_axe", new MAxeItem(MToolMaterials.netherrack, new Item.Settings().group(Main.ITEM)));
-		netherrack_pickaxe = new MItem("netherrack_pickaxe", new MAxeItem(MToolMaterials.netherrack, new Item.Settings().group(Main.ITEM)));
+		netherrack_pickaxe = new MItem("netherrack_pickaxe", new MPickaxeItem(MToolMaterials.netherrack, new Item.Settings().group(Main.ITEM)));
 		netherrack_shovel = new MItem("netherrack_shovel", new MShovelItem(MToolMaterials.netherrack, new Item.Settings().group(Main.ITEM)));
 		netherrack_hoe = new MItem("netherrack_hoe", new MHoeItem(MToolMaterials.netherrack, new Item.Settings().group(Main.ITEM)));
 	}

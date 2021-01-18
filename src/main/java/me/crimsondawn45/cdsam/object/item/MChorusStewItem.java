@@ -15,7 +15,7 @@ public class MChorusStewItem extends Item {
 	private double range = 32.0D;
 	
 	public MChorusStewItem(Settings settings) {
-		super(settings);
+		super(settings.maxCount(1));
 		
 	}
 
