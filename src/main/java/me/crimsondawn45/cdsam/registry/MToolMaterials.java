@@ -68,7 +68,7 @@ public class MToolMaterials implements ToolMaterial {
 	}
 
 	@Override
-	public float getMiningSpeedMultiplier() {
+	public float getMiningSpeed() {
 		return this.speedMultiplier;
 	}
 }
