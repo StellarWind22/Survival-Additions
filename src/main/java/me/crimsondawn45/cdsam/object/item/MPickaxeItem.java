@@ -5,8 +5,7 @@ import net.minecraft.item.ToolMaterial;
 
 public class MPickaxeItem extends PickaxeItem {
 
-	protected MPickaxeItem(ToolMaterial material, int attackDamage, float attackSpeed, Settings settings) {
+	public MPickaxeItem(ToolMaterial material, Settings settings) {
 		super(material, -3, -2.8F, settings);
 	}
-
 }
