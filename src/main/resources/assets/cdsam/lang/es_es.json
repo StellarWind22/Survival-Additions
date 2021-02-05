@@ -1,0 +1,115 @@
+{
+    "itemGroup.cdsam.items":"Adiciones de supervivencia: Artículos",
+    "itemGroup.cdsam.blocks":"Adiciones de supervivencia: Bloques",
+
+    "item.cdsam.cactus_stew":"Guiso de Cactus",
+    "item.cdsam.carrot_soup":"Sopa de Zanahoria",
+    "item.cdsam.chorus_fruit_stew":"Guiso de Frutas coral",
+    "item.cdsam.nether_wart_stew":"Guiso de Verruga del Nether",
+    "item.cdsam.potato_soup":"Sopa de papas",
+
+    "item.cdsam.knapped_flint":"Pedernal Tallado",
+
+    "item.cdsam.flint_sword":"Cuchillo de pedernal",
+    "item.cdsam.flint_axe":"Hacha de pedernal",
+    "item.cdsam.flint_pickaxe":"Pico de pedernal",
+    "item.cdsam.flint_shovel":"Pala de pedernal",
+    "item.cdsam.flint_hoe":"Azada de pedernal",
+
+    "item.cdsam.bone_sword":"Cuchillo de hueso",
+    "item.cdsam.bone_axe":"Hacha de hueso",
+    "item.cdsam.bone_pickaxe":"Pico de hueso",
+    "item.cdsam.bone_hoe":"Azada de hueso",
+
+    "item.cdsam.sandstone_sword":"Espada de arenisca",
+    "item.cdsam.sandstone_axe":"Hacha de arenisca",
+    "item.cdsam.sandstone_pickaxe":"Pico de arenisca",
+    "item.cdsam.sandstone_shovel":"Pala de arenisca",
+    "item.cdsam.sandstone_hoe":"Azada de arenisca",
+
+    "item.cdsam.netherrack_sword":"Espada de Netherrack",
+    "item.cdsam.netherrack_axe":"Hacha de Netherrack",
+    "item.cdsam.netherrack_pickaxe":"Pico de Netherrack",
+    "item.cdsam.netherrack_shovel":"Pala de Netherrack",
+    "item.cdsam.netherrack_hoe":"Azada de Netherrack",
+
+    "item.cdsam.end_stone_sword":"Espada de Piedro del End",
+    "item.cdsam.end_stone_axe":"Hacha de Piedro del End",
+    "item.cdsam.end_stone_pickaxe":"Pico de Piedro del End",
+    "item.cdsam.end_stone_shovel":"Pala de Piedro del End",
+    "item.cdsam.end_stone_hoe":"Azada de Piedro del End",
+
+    "block.cdsam.scrap_planks":"Tablones de chatarra",
+    "block.cdsam.scrap_slab":"Losa de chatarra",
+    "block.cdsam.scrap_stairs":"Escaleras de chatarra",
+    "block.cdsam.scrap_fence":"Valla de chatarra",
+    "block.cdsam.scrap_fence_gate":"Scrap Fence Gate",
+    
+    "block.cdsam.scrap_button":"Botón de chatarra",
+    "block.cdsam.scrap_pressure_plate":"Placa de presión de chatarra",
+
+    "block.cdsam.mud_bricks":"Ladrillos de barro",
+    "block.cdsam.mud_brick_stairs":"Escaleras de Ladrillos de barro",
+    "block.cdsam.mud_brick_slab":"Losa de Ladrillos de barro",
+    "block.cdsam.mud_brick_wall":"Muro de Ladrillos de barro",
+
+    "block.cdsam.smooth_sandstone_bricks":"Ladrillos de piedra arenisca lisa",
+    "block.cdsam.smooth_sandstone_brick_slab":"Losa de ladrillo de piedra arenisca lisa",
+    "block.cdsam.smooth_sandstone_brick_stairs":"Escaleras de ladrillo de piedra arenisca lisa",
+    "block.cdsam.smooth_sandstone_brick_wall":"Muro de ladrillo de piedra arenisca lisa",
+
+    "block.cdsam.smooth_sandstone_button":"Botón de piedra arenisca lisa",
+    "block.cdsam.smooth_sandstone_pressure_plate":"Placa de presión de piedra arenisca lisa",
+
+    "block.cdsam.smooth_red_sandstone_bricks":"Ladrillos de piedra arenisca rojos lisa",
+    "block.cdsam.smooth_red_sandstone_brick_slab":"Losa de ladrillo de piedra arenisca rojos lisa",
+    "block.cdsam.smooth_red_sandstone_brick_stairs":"Escaleras de ladrillo de piedra arenisca rojos lisa",
+    "block.cdsam.smooth_red_sandstone_brick_wall":"Muro de ladrillo de piedra arenisca rojos lisa",
+
+    "block.cdsam.smooth_red_sandstone_button":"Botón de piedra arenisca rojos lisa",
+    "block.cdsam.smooth_red_sandstone_pressure_plate":"Placa de presión de piedra arenisca rojos lisa",
+
+    "block.cdsam.polished_granite_bricks":"Ladrillos de granito pulido",
+    "block.cdsam.polished_granite_brick_slab":"Losa de ladrillo de granito pulido",
+    "block.cdsam.polished_granite_brick_stairs":"Escaleras de ladrillo de granito pulido",
+    "block.cdsam.polished_granite_brick_wall":"Muro de ladrillo de granito pulido",
+
+    "block.cdsam.polished_granite_button":"Botón de granito pulido",
+    "block.cdsam.polished_granite_pressure_plate":"Placa de presión de granito pulido",
+
+    "block.cdsam.polished_diorite_bricks":"Ladrillos de diorita pulidos",
+    "block.cdsam.polished_diorite_brick_slab":"Losa de ladrillo de diorita pulidos",
+    "block.cdsam.polished_diorite_brick_stairs":"Escaleras de ladrillo de diorita pulidos",
+    "block.cdsam.polished_diorite_brick_wall":"Muro de ladrillo de diorita pulidos",
+
+    "block.cdsam.polished_diorite_button":"Botón de diorita pulida",
+    "block.cdsam.polished_diorite_pressure_plate":"Placa de presión de diorita pulida",
+
+    "block.cdsam.polished_andesite_bricks":"Ladrillos de andesita pulidos",
+    "block.cdsam.polished_andesite_brick_slab":"Losa de ladrillo de andesita pulida",
+    "block.cdsam.polished_andesite_brick_stairs":"Escaleras de ladrillo andesita pulido",
+    "block.cdsam.polished_andesite_brick_wall":"Muro de ladrillo andesita pulido",
+
+    "block.cdsam.polished_andesite_button":"Botón de andesita pulida",
+    "block.cdsam.polished_andesite_pressure_plate":"Placa de presión de andesita pulida",
+
+    "block.cdsam.obsidian_slab":"Losa de obsidiana",
+    "block.cdsam.obsidian_stairs":"Escaleras de obsidiana",
+    "block.cdsam.obsidian_wall":"Muro de obsidiana",
+
+    "block.cdsam.polished_obsidian":"Obsidiana pulida",
+    "block.cdsam.polished_obsidian_slab":"Losa de obsidiana pulida",
+    "block.cdsam.polished_obsidian_stairs":"Escaleras de obsidiana pulida",
+    "block.cdsam.polished_obsidian_wall":"Muro de obsidiana pulida",
+   
+    "block.cdsam.polished_obsidian_bricks":"Ladrillos de obsidiana pulidos",
+    "block.cdsam.polished_obsidian_brick_slab":"Losa de ladrillo de obsidiana pulida",
+    "block.cdsam.polished_obsidian_brick_stairs":"Escaleras de ladrillo de obsidiana pulida",
+    "block.cdsam.polished_obsidian_brick_wall":"Muro de ladrillo de obsidiana pulida",
+
+    "block.cdsam.obsidian_glass":"Vidrio de obsidiana",
+    "block.cdsam.obsidian_glass_pane":"Panel de vidrio de obsidiana",
+
+    "block.cdsam.polished_obsidian_button":"Botón de obsidiana pulida",
+    "block.cdsam.polished_obsidian_pressure_plate":"Placa de presión de obsidiana pulida"
+}

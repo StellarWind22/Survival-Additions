@@ -18,8 +18,7 @@ dependencies {
 
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-	// Maybe Later
-	//include "me.shedaniel.cloth:config-2:${project.cloth_config_version}"
+	modImplementation "com.github.CrimsonDawn45:Fabric-Shield-Lib:${project.fabric_shield_lib_version}-${project.minecraft_version}"
 }
 
 processResources {
@@ -55,7 +54,10 @@ publishing {
 		}
 	}
 	repositories {
-		// uncomment to publish to the local maven
-		// mavenLocal()
+		allprojects {
+			repositories {
+			maven { url 'https://jitpack.io' }
+			}
+		}
 	}
 }
