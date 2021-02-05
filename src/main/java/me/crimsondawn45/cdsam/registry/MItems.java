@@ -9,7 +9,9 @@ import me.crimsondawn45.cdsam.object.item.MShovelItem;
 import me.crimsondawn45.cdsam.object.item.MStewItem;
 import me.crimsondawn45.cdsam.object.item.MSwordItem;
 import me.crimsondawn45.cdsam.util.MItem;
+import me.crimsondawn45.fabricshieldlib.lib.object.FabricShield;
 import net.minecraft.item.Item;
+import net.minecraft.tag.ItemTags;
 
 public class MItems {
 	
@@ -52,6 +54,8 @@ public class MItems {
 	public static MItem end_stone_pickaxe;
 	public static MItem end_stone_shovel;
 	public static MItem end_stone_hoe;
+			//Shield
+	public static MItem wooden_shield;
 	
 	public static void Init() {
 		//Food
@@ -87,5 +91,7 @@ public class MItems {
 		netherrack_pickaxe = new MItem("netherrack_pickaxe", new MPickaxeItem(MToolMaterials.netherrack, new Item.Settings().group(Main.ITEM)));
 		netherrack_shovel = new MItem("netherrack_shovel", new MShovelItem(MToolMaterials.netherrack, new Item.Settings().group(Main.ITEM)));
 		netherrack_hoe = new MItem("netherrack_hoe", new MHoeItem(MToolMaterials.netherrack, new Item.Settings().group(Main.ITEM)));
+		
+		wooden_shield = new MItem("wooden_shield", new FabricShield(new Item.Settings().group(Main.ITEM), 100, 165, ItemTags.PLANKS));
 	}
 }
