@@ -92,6 +92,6 @@ public class MItems {
 		netherrack_shovel = new MItem("netherrack_shovel", new MShovelItem(MToolMaterials.netherrack, new Item.Settings().group(Main.ITEM)));
 		netherrack_hoe = new MItem("netherrack_hoe", new MHoeItem(MToolMaterials.netherrack, new Item.Settings().group(Main.ITEM)));
 		
-		wooden_shield = new MItem("wooden_shield", new FabricShield(new Item.Settings().group(Main.ITEM), 100, 165, ItemTags.PLANKS));
+		wooden_shield = new MItem("wooden_shield", new FabricShield(new Item.Settings().group(Main.ITEM), 100, 165, 15, ItemTags.PLANKS));
 	}
 }
