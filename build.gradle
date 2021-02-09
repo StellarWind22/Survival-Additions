@@ -17,7 +17,7 @@ dependencies {
 
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-	modImplementation "com.github.CrimsonDawn45:Fabric-Shield-Lib:${project.fabric_shield_lib_version}-${project.minecraft_version}"
+	//modImplementation "com.github.CrimsonDawn45:Fabric-Shield-Lib:${project.fabric_shield_lib_version}-${project.minecraft_version}"
 }
 
 processResources {
@@ -55,7 +55,7 @@ publishing {
 	repositories {
 		allprojects {
 			repositories {
-			maven { url 'https://jitpack.io' }
+			//maven { url 'https://jitpack.io' }
 			}
 		}
 	}
